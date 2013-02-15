@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Recomputation Manifesto - recomputation.org</title>
+  <meta name="author" content="Ian Gent">
+
+  
+  <meta name="description" content="The Recomputation Manifesto Feb 15th, 2013 Replication of scientific experiments is critical to the advance of
+science. Computer Science has the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://recomputation.org/www/manifesto/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="recomputation.org" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">recomputation.org</a></h1>
+  
+    <h2>If we can compute your experiment now, anyone can recompute it 20 years from now</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:recomputation.org/www" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">The Recomputation Manifesto</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-15T09:48:00+00:00" pubdate data-updated="true">Feb 15<span>th</span>, 2013</time></p>
+  </header>
+  
+  <p>Replication of scientific experiments is critical to the advance of
+science. Computer Science has the enormous advantage that computational
+experiments are inherently highly replicable, since computers are
+extremely good at doing the same thing over and over again.
+Unfortunately, the discipline of Computer Science has never treated
+replication seriously. Experiments are not normally replicated, and are
+not normally replicable in any meaningful way. There is a recent trend
+towards making source code for experiments available, but this only
+addresses the openness of methods. It can be close to impossible to make
+that code run in the first place, and – in the happy event that is even
+possible – use that code to produce data akin to that reported in a
+paper. I propose that this must change for the health of the discipline.
+I propose that the only credible technique to make experiments truly
+replicable is to provide copies of virtual machines in which the
+experiments are validated to run on the day the experiment was done. I
+propose that tools and repositories should be made available to make
+this happen. I wish to be one of those who makes it happen.</p>
+
+<p>Before the manifesto itself, a word about the name: “recomputation&#8221;. The
+natural word ‘replication’ would cause confusion given its
+well-established technical meaning in computing. I have chosen the word
+‘recomputation’ to mean the replication of computational experiments.
+This is adding a specific meaning to an existing word,[<sup>1]</sup> but the new
+meaning adds only a nuance and also serves usefully to distinguish
+replication of computational experiments from other types of experiment.</p>
+
+<h1>1. Computational experiments should be recomputable for all time.</h1>
+
+<p>Why recomputable? And why for all time?</p>
+
+<p>The necessity for recomputation is simple. An experiment is used to form
+scientific conclusions, and those conclusions are never final. They may
+always be subject to question, so experimental work may need to be
+repeated. I would even argue that the less experiments are replicated,
+the <em>more</em> important it is that they be recomputable. The reason is that
+flaws in an experiment that is frequently replicated are likely to come
+to light, but not so if the experiment is rarely replicated. The more
+rarely an experiment is repeated, the longer the time lapse until it is,
+and the less likely a new researcher will be able to replicate it easily
+without the original experiment being deliberately made recomputable. If
+the original experiment is flawed in some way, misleading results can
+lie uncorrected in the literature for years Beck, Prosser, and Wallace
+(2004).</p>
+
+<p>Should experiments be recomputable for all time? Yes. Computer Science
+is unique in having this ability. Imagine if physicists had the
+opportunity to look through Galileo’s telescopes at Jupiter’s moons, but
+couldn’t be bothered to store them. There is no reasonable limit to what
+is the useful life of an experiment is, so the simplest answer is to
+have no limit. Moore’s law, while it lasts, makes it technically
+feasible to store experiments forever. It’s affordable, because of
+storage costs. Amazon Glacier now costs 12 per year per GB. With
+decreasing storage costs, it’s reasonable to guess that \$1 per GB would
+be enough to pay for permanent storage. It’s even affordable to rerun
+all computational experiments in history regularly. If researchers
+donated 10% of CPU resources for new experiments to recomputing old
+ones, all 5 year old experiments could be rerun each year.[<sup>2]</sup></p>
+
+<h1>2. Recomputation of recomputable experiments should be very easy</h1>
+
+<p>Recomputation should be very easy. Ideally, very easy means clicking a
+button. This will not always be possible, but we should make it as easy
+as we possibly can for experimenters to reproduce their own experiments
+and those of other researchers.</p>
+
+<p>An important point about this manifesto is that by recomputation I focus
+mainly on the exact replication of an experiment. No other choice is
+available since (as I argue below) we have to duplicate the exact
+experimental conditions to ensure that recomputation is possible.
+Drummond argues powerfully that this - which he calls ‘replicability’ -
+is the poor cousin of ‘reproducibility’, where experiments are
+reproduced with changes to factors believed to be insignificant Drummond
+(2009). There is no question that key advances in science should be
+reproducible in Drummond’s richer sense, but neither do I accept that
+“the impoverished version, replicability, is one not worth having&#8221;. To
+take a non-computational example, it would be wonderful if the original
+experiments on cold fusion could be replicated exactly. If there was
+some technical flaw with the experiments, it could be discovered, or if
+not the effects that led to the apparent conclusion that cold fusion
+existed could be investigated. Once we have ensured that experiments can
+be recomputed exactly, we can have the luxury of seeking to ensure that
+experiments can be reproduced in richer ways.</p>
+
+<h1>3. It should be easier to make experiments recomputable than not to</h1>
+
+<p>How can it be easier to make new experiments recomputable than not to
+bother? I draw your attention to Jon Claerbout’s words Claerbout:</p>
+
+<blockquote><p><em>“It’s not really for the benefit of other people. Experience shows
+the principal beneficiary of reproducible research is you the author
+yourself.&#8221;</em></p></blockquote>
+
+<p>I’ve been doing major computational experiments for 20 years: some of
+them I am rather proud of. But whenever I start on a new set of
+experiments, my heart sinks a little. I expect the pain of getting
+everything set up, and then I expect the difficulty or impossibility of
+reproducing my experiments if, say, the paper is rejected and I need to
+rerun them for a later submission. We should fix this. Tools should be
+available to make it easier to run experiments, encourage good
+experimental practice, and simultaneously make them recomputable. An
+experienced experimenter’s heart should sink no more than an experienced
+programmer when starting a new program.</p>
+
+<h1>4. Tools and repositories can help recomputation become standard</h1>
+
+<p>I draw an analogy with git or other source code control tools. Learning
+and using git adds complication to one’s life. But the benefits are
+enormous, and without question it is easier overall to build and
+maintain code using source code control systems than without. Once we
+have the appropriate tools and repositories we in Computer Science will
+have an enormous advantage over other sciences. Many sciences have
+massive online repositories, of course leveraging advances in Computer
+Science to their benefit. We can be unique in having massive online
+repositories of fully realised experiments, not just the data resulting
+from experiments. We should research and make available tools and
+repositories for the recomputation of scientific experiments. Sadly,
+tools for recomputation are relatively lacking to date, although there
+are promising signs. For example, in a single PhD thesis, Philip Guo
+introduced Burrito, a tool for electronic lab notebooks, and CDE, an
+automatic packaging tool for experiments in linux Guo (2012).</p>
+
+<h1>5. The <em>only</em> way to ensure recomputability is to provide virtual machines</h1>
+
+<p>While the other points of the manifesto state how I think the world
+should be, this point is an empirical statement about how the world is.
+There are two reasons that virtual machines are - at least for now - the
+only way to go. The first is the almost universal (I suspect) experience
+among anyone who has built software and especially tried to rebuild it
+later. A build of the resulting program (and hence experiment) can fail
+due to arbitrary changes in the machine being used. This applies even
+where the machine is physically the same one that was used months ago to
+run an experiment the first time. An innocent software update, to a
+package not obviously used by the build software, can cause disaster. If
+the machine is not the same one or a clone thereof, all bets are off.
+The <em>only</em> way to ensure an experiment is recomputable is to make
+available a virtual machine identical to one which was tested and worked
+when the experiment was originally run.</p>
+
+<p>The second reason is that the available computers and operating systems
+change over time. It may be true that code you make available today can
+be built with only minor pain by many people on current computers. That
+is unlikely to be true in 5 years, and hardly credible in 20.</p>
+
+<p>A classic example illustrates both these reasons. SHRDLU is one of the
+most famous programs in the history of AI. The complete source code is
+available, but it cannot be run. Although the physical machine and OS it
+ran on can be emulated, we do not have the exact machine state that
+enabled the program to run. Amongst other issues, Terry Winograd changed
+his own copy of Lisp, changes that are now lost.[<sup>3]</sup> What we need – and
+should provide for new experiments – is an exact virtual machine in
+which the experiment worked. There are isolated cases out there of
+researchers providing virtual machines for recomputation, such as Brown
+Brown (2012; Brown et al. 2012). We need to take this from an isolated
+case of a keen researcher pushing the envelope, and turn it into the
+standard way Computer Scientists do business. Howe makes the case more
+eloquently than I can, giving 13 reasons why virtual machines in the
+cloud can improve reproducibility B. Howe (2012).</p>
+
+<h1> 6. Runtime performance is a secondary issue</h1>
+
+<p>This manifesto is about allowing recomputation of experiments. If a
+measure is deterministic, e.g. the result of a fixed computation, or the
+number of nodes in a non-random search tree, it should be replicated
+every time the experiment is recomputed. But we cannot guarantee the
+same results in terms of non-deterministic measures such as cpu time. By
+using virtual machines, we may obtain different results as are seen on a
+physical machine, and future results on virtual machines may differ from
+current ones. Even where serious efforts are made, no guarantee that
+run-time results are replicable can be obtained. For example, even
+though max-clique researchers have a standard methodology for
+cross-referencing cpu times, Prosser has shown that these results cannot
+be relied on even approximately Prosser (2012).</p>
+
+<p>I conclude that we must tackle the easier problems first. Ensuring
+recomputation of experiments is not easy, but it is critical and at
+least achievable. Obtaining meaningfully replicable cpu time comparisons
+requires significant additional research – if it is even possible. But,
+by allowing recomputation of experiments, we allow researchers to
+recompute experiments in a variety of environments, discovering if
+conclusions about run times are universal or contingent on a particular
+environment. The critical thing is to preserve scientific experiments.
+It’s unarguable that if we can’t recompute an experiment at all, we
+can’t preserve run time performance.</p>
+
+<h1>The recomputation.org Manifesto</h1>
+
+<p>I am starting <a href="http://recomputation.org">http://recomputation.org</a> as repository for replicable
+experiments, and starting to work on the tools to use on the site. Based
+on my arguments above I have the following plans. The overriding goal is
+the following mission statement:</p>
+
+<blockquote><p>*If we can compute your experiment now, anyone can recompute it 20
+years from now *</p></blockquote>
+
+<p>The site &lt;recomputation.org> is brand new and (as I write) holds zero
+experiments. But the following are the principles which we will use in
+developing it to deliver the mission statement.</p>
+
+<ol>
+<li><p>&lt;recomputation.org> will make available virtual machines or
+equivalent technology to allow exact recomputation of lodged
+experiments.</p></li>
+<li><p>&lt;recomputation.org> will make its best efforts to ensure that all
+experiments which it believes to be recomputable will remain
+recomputable for all time.</p></li>
+<li><p>&lt;recomputation.org> will always be free to those lodging bona-fide
+scientific experiments and to those obtaining past experiments, at
+least where all aspects of the experiments are open source and fees
+are not charged for the related scientific publication.[<sup>4]</sup></p></li>
+<li><p>&lt;recomputation.org> will provide its code and tools using an
+appropriate open source licence, including server-side code.</p></li>
+<li><p>&lt;recomputation.org> will serve as a testbed for scientific research
+into issues such as experimental techniques and methodologies.</p></li>
+<li><p>&lt;recomputation.org> will seek to fund its mission through research
+funding, donations, and charging for services such as lodging
+non-open source or non-freely available experiments.</p></li>
+</ol>
+
+
+<h1>Vote Recomputation</h1>
+
+<p>The recomputation manifesto is similar in spirit to the ‘Science Code
+Manifesto’,[<sup>5]</sup> but addresses an orthogonal issue. The Science Code
+Manifesto demands that code used in scientific publications should be
+made available in an open way for the useful lifetime of the
+publication. But this is neither a necessary condition for recomputation
+nor sufficient for it. Closed source experiments can be recomputed if
+the appropriate environment is provided – e.g. a suitable virtual
+machine containing the necessary binaries but not source. Arguably
+recomputability is <em>more</em> important for closed source than for open
+source. But it must not be thought that open source is sufficient for
+recomputability. The <em>only</em> guarantee of recomputability is the exact
+environment being available. I do endorse the Science Code Manifesto,
+and initial efforts at <a href="http://recomputation.org">http://recomputation.org</a> will be focussed on
+open source efforts only. As well as the scientific desirability of open
+source, it avoids one form of potential licencing problems in
+recomputation.</p>
+
+<p>A manifesto is a call that people reading it should vote for your point
+of view. Don’t vote with a signature or a petition, or even with your
+feet. Vote by making your computational experiments recomputable. Do it
+at <a href="http://recomputation.org">http://recomputation.org</a>, or at your own web site, or at another
+repository. But make your experiments recomputable.</p>
+
+<h1>About the Author</h1>
+
+<p>Ian Gent is Professor of Computer Science at the University of St
+Andrews, Scotland. Of his non peer-reviewed papers, his most cited by
+far is “How Not To Do It” Gent et al. (1997), a collection of
+embarrassing mistakes he and colleagues have made in computational
+experiments. To show how good we are at not doing things right, we
+mis-spelt the name of one of the authors!</p>
+
+<h1>Acknowledgements</h1>
+
+<p>I wish to thank many scientists I have discussed these issues with over
+the years, for example my fellow authors of Gent et al. (1997). I
+especially thank Patrick Prosser for his tenacious pursuit of
+replication of past experiments and discussions of his struggles in
+achieving them, and Ewan (not Ewen) MacIntyre for accepting our
+mis-spelling of his name. I also thank more recent colleagues, including
+Adam Barker, Edwin Brady, Chris Jefferson, Lars Kotthoff, Steve Linton,
+Ian Miguel, Pete Nightingale, and Karen Petrie.</p>
+
+<h1>Draft identity in subversion:</h1>
+
+<p><code>$Id: ReCompManifesto.tex 9377 2013-02-15 09:23:53Z ipg $</code></p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-15T09:48:00+00:00" pubdate data-updated="true">Feb 15<span>th</span>, 2013</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://recomputation.org/www/manifesto/index.html" data-via="" data-counturl="http://recomputation.org/www/manifesto/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/15/welcome-to-recomputation-dot-org/">Welcome to www.recomputation.org</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Ian Gent -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

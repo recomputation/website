@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[recomputation.org]]></title>
+  <link href="http://recomputation.org/www/atom.xml" rel="self"/>
+  <link href="http://recomputation.org/www/"/>
+  <updated>2013-02-15T11:55:17+00:00</updated>
+  <id>http://recomputation.org/www/</id>
+  <author>
+    <name><![CDATA[Ian Gent]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to www.recomputation.org]]></title>
+    <link href="http://recomputation.org/www/blog/2013/02/15/welcome-to-recomputation-dot-org/"/>
+    <updated>2013-02-15T08:47:00+00:00</updated>
+    <id>http://recomputation.org/www/blog/2013/02/15/welcome-to-recomputation-dot-org</id>
+    <content type="html"><![CDATA[<p>On the day after Valentine&#8217;s Day, 2013, I&#8217;d <em>love</em> to welcome you to <a href="http://recomputation.org">recomputation.org</a>
+My name is <a href="http://www.cs.st-andrews.ac.uk/~ipg">Ian Gent</a> and I&#8217;m Professor of Computer Science at the University of St Andrews.</p>
+
+<!-- more -->
+
+
+<p>Let me first talk about the name.  &#8220;Recomputation&#8221; is intended to mean the replication of computational scientific experiments.   It&#8217;s not a new word - it actually goes back to 1766! - so I am trying to overload it with a new meaning.  But the word &#8220;replication&#8221; already has a technical computing meaning, so that is not the best name for the job of replication of computing experiments.</p>
+]]></content>
+  </entry>
+  
+</feed>
