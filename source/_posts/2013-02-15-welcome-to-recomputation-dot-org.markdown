@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "Welcome to www.recomputation.org"
+title: "Welcome to recomputation.org"
 date: 2013-02-15 08:47
 comments: true
 author: Ian Gent
 categories: 
 ---
 
-On the day after Valentine's Day, 2013, I'd *love* to welcome you to [recomputation.org](http://recomputation.org)
+On the day after Valentine's Day, 2013, I'd *love* to welcome you to [recomputation.org](http://recomputation.org).
 My name is [Ian Gent](http://www.cs.st-andrews.ac.uk/~ipg) and I'm Professor of Computer Science at the University of St Andrews. 
 
 <!-- more -->
-
 
 
 
