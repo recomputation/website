@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[recomputation.org]]></title>
-  <link href="http://recomputation.org/www/atom.xml" rel="self"/>
-  <link href="http://recomputation.org/www/"/>
-  <updated>2013-02-15T11:55:17+00:00</updated>
-  <id>http://recomputation.org/www/</id>
+  <link href="http://www.recomputation.org/atom.xml" rel="self"/>
+  <link href="http://www.recomputation.org/"/>
+  <updated>2013-02-15T14:13:30+00:00</updated>
+  <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
     
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Welcome to www.recomputation.org]]></title>
-    <link href="http://recomputation.org/www/blog/2013/02/15/welcome-to-recomputation-dot-org/"/>
+    <title type="html"><![CDATA[Welcome to recomputation.org]]></title>
+    <link href="http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org/"/>
     <updated>2013-02-15T08:47:00+00:00</updated>
-    <id>http://recomputation.org/www/blog/2013/02/15/welcome-to-recomputation-dot-org</id>
-    <content type="html"><![CDATA[<p>On the day after Valentine&#8217;s Day, 2013, I&#8217;d <em>love</em> to welcome you to <a href="http://recomputation.org">recomputation.org</a>
+    <id>http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org</id>
+    <content type="html"><![CDATA[<p>On the day after Valentine&#8217;s Day, 2013, I&#8217;d <em>love</em> to welcome you to <a href="http://recomputation.org">recomputation.org</a>.
 My name is <a href="http://www.cs.st-andrews.ac.uk/~ipg">Ian Gent</a> and I&#8217;m Professor of Computer Science at the University of St Andrews.</p>
 
 <!-- more -->
