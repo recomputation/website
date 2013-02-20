@@ -4,7 +4,7 @@
   <title><![CDATA[recomputation.org]]></title>
   <link href="http://www.recomputation.org/atom.xml" rel="self"/>
   <link href="http://www.recomputation.org/"/>
-  <updated>2013-02-16T22:12:41+00:00</updated>
+  <updated>2013-02-20T17:27:03+00:00</updated>
   <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
@@ -52,7 +52,7 @@
 <p>But if you as an experimenter are not making your code open source, I can think of a number of reasons, and none of these are ones that I feel recomputation.org should support with free services.</p>
 
 <ul>
-<li><p>You wish to have the option to make money from your closed-source code.  That&#8217;s fine, but if money is entering into the equation you should be prepared to pay the costs your experiments cause recomputation.org.</p></li>
+<li><p>You wish to have the option to make money from your closed-source code.  That&#8217;s fine, but if money is entering into the equation you should be prepared to pay the costs your experiments cause recomputation.org.  Of course, if you want to make money from your open-source code, that&#8217;s fine too, and because you&#8217;ve made it available open-source, we&#8217;ll happily bear the costs on behalf of the scientific community.</p></li>
 <li><p>You do not believe in the Science Code Manifesto and feel research code should be private, perhaps to avoid giving away clever implementation tricks to other researchers.  We can&#8217;t force you to change your opinion, but we can make you pay for the privilege of lodging you experiments with us. Of course you can freely download our tools to form your own repository, and that is great: of course that will also incur costs on you in storage and bandwidth.</p></li>
 <li><p>In principle you believe in the Science Code Manifesto but are incredibly embarrassed about the low quality and maintainability of your code.   I have great sympathy with this view because I have in the past refused to give code away for exactly this reason.  But don&#8217;t be embarrassed!  Read the wonderful <a href="" title="http://matt.might.net/articles/crapl/">CRAPL: An academic-strength open source license</a>.   The rude name (CRAP) is entirely deliberate.  We all write horrible research code and you should not be embarrassed.  Share anyway!</p></li>
 </ul>
@@ -77,7 +77,7 @@
 <p>This caveat is not meant to exclude authors who wish to make their experiments available for papers published in charged-for publications.  Looking further ahead, we wish to encourage journals and conferences to request experimenters to lodge experiments with us.   For example, we might provide a service where a journal can have a dedicated area where experiments are placed under embargo for reviewers to attempt to recompute.  A journal which charges either authors or readers might have to pay for this service.</p>
 
 <p>Why this somewhat stern approach?  Because it is not the job of recomputation.org to provide services for nothing to those who charge.   If - as we hope they will - academic journals wish to encourage or require the use of recomputation.org, we would expect recompense from journals who charge either readers or authors for access.   This includes most, but not all, open access publications, since they typically charge authors or funding bodies to make publications open.<br/>
-On the other hand, we would not consider charging to &#8221;<a href="http://journals.kent.ac.uk/index.php/feministsatlaw/article/view/59/179">platinum level</a>&#8221; open access journals, i.e. those which charge neither authors nor readers.
+On the other hand, we would not consider charging to <a href="http://journals.kent.ac.uk/index.php/feministsatlaw/article/view/59/179">&#8220;platinum level&#8221;</a> open access journals, i.e. those which charge neither authors nor readers.
 Platinum level open access is not utopian. Even though the term appears to be about a year old,
 I published a paper in a platinum level open access journal <a href="http://jair.org/papers/paper7.html">20 years ago</a>, and in the same journal on the same terms
 <a href="http://jair.org/papers/paper3749.html">this year</a>.</p>

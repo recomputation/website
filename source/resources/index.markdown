@@ -6,3 +6,91 @@ comments: true
 sharing: true
 footer: true
 ---
+
+## Virtual Machines for Replicable Computational Research
+
+* [Virtual appliances, cloud computing, and reproducible research](https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6193081), Bill Howe, 2012.
+
+    * [Slideshare of a presentation on this](http://www.slideshare.net/billhoweuw/virtual-appliances-cloud-computing-and-reproducible-research)
+
+* [Our approach to replication in computational science](http://ivory.idyll.org/blog/replication-i.html), C Titus Brown's blog post about making his VM available for a [2012 paper.](http://ged.msu.edu/papers/2012-diginorm/)
+
+
+## Software tools
+
+* [Software tools to facilitate research programming](http://www.pgbovine.net/projects/pubs/guo_phd_dissertation.pdf). [Philip Guo](http://www.pgbovine.net/), 
+Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
+
+    * [CDE: Automatically create portable Linux applications](http://www.pgbovine.net/cde.html)
+    
+
+* [HAL: The High-performance Algorithm Laboratory](http://hal.cs.ubc.ca/), University of British Columbia.
+
+* [SCons](http://www.scons.org/)
+
+* [Taverna Workflow Management System](http://www.taverna.org.uk/)
+
+
+## Reproducible Computational Research
+
+* [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/icmlws09.pdf), Chris Drummond, 2009, paper.
+
+* [Reproducible Research in Computational Science](https://www.sciencemag.org/content/334/6060/1226.full), Roger D Peng, Science, 2011, paper..
+
+* [Computer Science: Accessible Reproducible Research](https://www.sciencemag.org/content/327/5964/415.full), 
+ Jill P. Mesirov, Science, 2010, paper.
+
+
+* [Reproducible Computational Research: A history of hurdles, mostly overcome](http://sepwww.stanford.edu/data/media/public/sep//jon/reproducible.html),
+Jon Claerbout
+
+* [The Reality of Reproducibility of in silico Science"](http://tinyurl.com/bcncgtk), Carole Goble, Keynote Address, 2012.
+
+* [Do economics journal archives promote replicable research?](http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5982.2008.00509.x/abstract), B.D. McCullough, Kerry Anne McGeary, Teresa D. Harrison, 2008, paper.
+
+* [Reproducible Computational Research: The Challenges Ahead](http://www.scfbm.org/content/pdf/1751-0473-7-2.pdf), Cameron Neylon et al, 2012, Editorial in Source Code for Biology and Medicine. Discussion about the journal "Open Research Computation", a journal which never published a paper.
+
+* [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
+
+
+
+## Experiments
+
+* [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
+
+## Best Practice in Scientific Code
+
+* [Scientific Code Manifesto](http://sciencecodemanifesto.org)
+
+* [CRAPL: An academic-strength open source license](http://matt.might.net/articles/crapl/)
+
+* [The Case for Open Computer Programs](http://www.nature.com/nature/journal/v482/n7386/full/nature10836.html), Darrel C. Ince,  Leslie Hatton & John Graham-Cumming, Nature Perspective, 2012
+
+* [Publish your computer code: it is good enough](http://www.nature.com/news/2010/101013/full/467753a.html), Nick Barnes, 2010, Nature column.
+
+* [Panton Principles for Open Data in Science](http://pantonprinciples.org/)
+
+## Empirical Methods in Computer Science
+
+* [Computer science as empirical inquiry: symbols and search](https://dl.acm.org/citation.cfm?id=360022), Allen Newell and Herbert Simon, 1976, Turing Award lecture.
+
+* [Empirical Methods for Artificial Intelligence](https://mitpress.mit.edu/books/empirical-methods-artificial-intelligence), Paul Cohen, 1995, book.
+
+## Experimental Algorithmics
+
+* [A Guide to Experimental Algorithmics](http://www.cambridge.org/gb/knowledge/isbn/item6618711/), Catherine McGeoch, 2012, book, with [companion website](http://www.cs.amherst.edu/alglab/)
+
+* [A Theoretician's Guide to the Experimental Analysis of Algorithms](http://www2.research.att.com/~dsj/papers/experguide.pdf), David S Johnson, 2001, paper.
+
+* [How Not To Do It](http://www.cse.unsw.com.au/~tw/hownotto.pdf), 
+Ian P Gent, Stuart A Grant, Ewan MacIntyre, Patrick Prosser, Paul Shaw, Barbara M Smith, 
+Toby Walsh, 1997, Research Report.  (Ewan MacIntyre was rather embarrassingly called "Ewen" on the title page!)
+
+
+* [ACM Journal on Experimental Algorithmics](http://www.jea.acm.org/), ongoing journal
+
+    > “Submissions to JEA typically include an article, a suite of programs, and a collection of test data and computational results. Accepted submissions are placed on-line, with all code and data made public, so that accumulated contributions build a well tested and well documented library of discrete algorithms and data structures (as well as test cases and application examples), for use by researchers and practitioners alike.”
+
+* [ALENEX: Algorithm Engineering and Experimentation]](http://www.informatik.uni-trier.de/~ley/db/conf/alenex/index.html), conference series
+
+

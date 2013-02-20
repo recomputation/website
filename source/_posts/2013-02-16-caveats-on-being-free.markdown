@@ -38,7 +38,7 @@ But I think code openness and recomputability are orthogonal problems.  In fact 
 
 But if you as an experimenter are not making your code open source, I can think of a number of reasons, and none of these are ones that I feel recomputation.org should support with free services.
 
-* You wish to have the option to make money from your closed-source code.  That's fine, but if money is entering into the equation you should be prepared to pay the costs your experiments cause recomputation.org.
+* You wish to have the option to make money from your closed-source code.  That's fine, but if money is entering into the equation you should be prepared to pay the costs your experiments cause recomputation.org.  Of course, if you want to make money from your open-source code, that's fine too, and because you've made it available open-source, we'll happily bear the costs on behalf of the scientific community.
 
 * You do not believe in the Science Code Manifesto and feel research code should be private, perhaps to avoid giving away clever implementation tricks to other researchers.  We can't force you to change your opinion, but we can make you pay for the privilege of lodging you experiments with us. Of course you can freely download our tools to form your own repository, and that is great: of course that will also incur costs on you in storage and bandwidth.
 
