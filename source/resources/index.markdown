@@ -91,6 +91,6 @@ Toby Walsh, 1997, Research Report.  (Ewan MacIntyre was rather embarrassingly ca
 
     > “Submissions to JEA typically include an article, a suite of programs, and a collection of test data and computational results. Accepted submissions are placed on-line, with all code and data made public, so that accumulated contributions build a well tested and well documented library of discrete algorithms and data structures (as well as test cases and application examples), for use by researchers and practitioners alike.”
 
-* [ALENEX: Algorithm Engineering and Experimentation]](http://www.informatik.uni-trier.de/~ley/db/conf/alenex/index.html), conference series
+* [ALENEX: Algorithm Engineering and Experimentation](http://www.informatik.uni-trier.de/~ley/db/conf/alenex/index.html), conference series
 
 
