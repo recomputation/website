@@ -44,11 +44,13 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 * [Reproducible Computational Research: A history of hurdles, mostly overcome](http://sepwww.stanford.edu/data/media/public/sep//jon/reproducible.html),
 Jon Claerbout
 
-* [The Reality of Reproducibility of in silico Science"](http://tinyurl.com/bcncgtk), Carole Goble, Keynote Address, 2012.
+* [The Reality of Reproducibility of in silico Science](http://tinyurl.com/bcncgtk), Carole Goble, Keynote Address, 2012.
 
 * [Do economics journal archives promote replicable research?](http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5982.2008.00509.x/abstract), B.D. McCullough, Kerry Anne McGeary, Teresa D. Harrison, 2008, paper.
 
 * [Reproducible Computational Research: The Challenges Ahead](http://www.scfbm.org/content/pdf/1751-0473-7-2.pdf), Cameron Neylon et al, 2012, Editorial in Source Code for Biology and Medicine. Discussion about the journal "Open Research Computation", a journal which never published a paper.
+
+* [Reproducible Research](http://www.computer.org/csdl/mags/cs/2009/01/index.html), Special part Issue of Computers in Science and Engineering, 2009.
 
 * [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
 
@@ -93,4 +95,8 @@ Toby Walsh, 1997, Research Report.  (Ewan MacIntyre was rather embarrassingly ca
 
 * [ALENEX: Algorithm Engineering and Experimentation](http://www.informatik.uni-trier.de/~ley/db/conf/alenex/index.html), conference series
 
+## Reproducible Documents
 
+* [Sweave](http://www.stat.uni-muenchen.de/~leisch/Sweave/), "Sweave is a tool that allows to embed the R code for complete data analyses in latex documents. The purpose is to create dynamic reports, which can be updated automatically if data or analysis change."
+
+* [GenePattern Reproducible Research Document (GRRD)](https://www.broadinstitute.org/cancer/software/genepattern/grrd/AddIn)
