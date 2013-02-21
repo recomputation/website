@@ -22,6 +22,9 @@ footer: true
 Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
     * [CDE: Automatically create portable Linux applications](http://www.pgbovine.net/cde.html)
+
+* [Verifiable Computational Research](http://vcr.stanford.edu/)
+
     
 
 * [HAL: The High-performance Algorithm Laboratory](http://hal.cs.ubc.ca/), University of British Columbia.
