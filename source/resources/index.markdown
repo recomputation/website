@@ -36,6 +36,8 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 * [Sumatra](http://software.incf.org/software/sumatra) 
 "Sumatra is a tool for managing and tracking projects based on numerical simulation and/or analysis, with the aim of supporting reproducible research"
 
+* [VisTrails](http://www.vistrails.org/index.php/Main_Page) "VisTrails is an open-source scientific workflow and provenance management system that provides support for simulations, data exploration and visualization."
+
 ## Reproducible Computational Research
 
 * [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/icmlws09.pdf), Chris Drummond, 2009, paper.
