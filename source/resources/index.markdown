@@ -73,8 +73,7 @@ Jon Claerbout
 
 * [SHARE](http://is.ieis.tue.nl/staff/pvgorp/share/). Sharing Hosted Autonomous Research Environments.  
 
-    * [SHARE: a web portal for creating and sharing executable research
-papers](http://is.tm.tue.nl/staff/pvgorp/pro/phd/VanGorpMazanek2011ElsevierChallenge-cameraready.pdf), International Conference on Computational Science, ICCS 2011.
+    * [SHARE: a web portal for creating and sharing executable research papers](http://is.tm.tue.nl/staff/pvgorp/pro/phd/VanGorpMazanek2011ElsevierChallenge-cameraready.pdf), International Conference on Computational Science, ICCS 2011.
 
 
 
