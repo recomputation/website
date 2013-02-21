@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "resources"
-date: 2013-02-15 14:10
+date: 2013-02-21 10:21
 comments: true
 sharing: true
 footer: true
@@ -30,6 +30,8 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [Taverna Workflow Management System](http://www.taverna.org.uk/)
 
+* [Sumatra](http://software.incf.org/software/sumatra) 
+"Sumatra is a tool for managing and tracking projects based on numerical simulation and/or analysis, with the aim of supporting reproducible research"
 
 ## Reproducible Computational Research
 
@@ -50,27 +52,40 @@ Jon Claerbout
 
 * [Reproducible Computational Research: The Challenges Ahead](http://www.scfbm.org/content/pdf/1751-0473-7-2.pdf), Cameron Neylon et al, 2012, Editorial in Source Code for Biology and Medicine. Discussion about the journal "Open Research Computation", a journal which never published a paper.
 
+* [Reproducible Research: Tools and Strategies for Scientific Computing](http://www.computer.org/csdl/mags/cs/2012/04/mcs2012040011.html), guest editorial by Victoria Stodden for 
+[Special part Issue of Computers in Science and Engineering](http://www.computer.org/csdl/mags/cs/2012/04/index.html), 2012.
+
 * [Reproducible Research](http://www.computer.org/csdl/mags/cs/2009/01/index.html), Special part Issue of Computers in Science and Engineering, 2009.
 
 * [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
 
 
+## Online Experiments
 
-## Experiments
+* [runMyCode](http://www.runmycode.org/CompanionSite/home.do)
 
 * [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
+
+## Legal Issues and Licencing
+
+* [The Legal Framework for Reproducible Scientific Research: Licensing and Copyright](http://www.computer.org/csdl/mags/cs/2009/01/mcs2009010035-abs.html), Victoria Stodden, 
+Computers in Science and Engineering, 2009.
+[Preprint available.](http://www.stanford.edu/~vcs/papers/LFRSR12012008.pdf)
+
+* [CRAPL: An academic-strength open source license](http://matt.might.net/articles/crapl/)
 
 ## Best Practice in Scientific Code
 
 * [Scientific Code Manifesto](http://sciencecodemanifesto.org)
 
-* [CRAPL: An academic-strength open source license](http://matt.might.net/articles/crapl/)
 
 * [The Case for Open Computer Programs](http://www.nature.com/nature/journal/v482/n7386/full/nature10836.html), Darrel C. Ince,  Leslie Hatton & John Graham-Cumming, Nature Perspective, 2012
 
 * [Publish your computer code: it is good enough](http://www.nature.com/news/2010/101013/full/467753a.html), Nick Barnes, 2010, Nature column.
 
 * [Panton Principles for Open Data in Science](http://pantonprinciples.org/)
+
+* [Creative Commons Science](http://wiki.creativecommons.org/Science)
 
 ## Empirical Methods in Computer Science
 
@@ -81,6 +96,8 @@ Jon Claerbout
 ## Experimental Algorithmics
 
 * [A Guide to Experimental Algorithmics](http://www.cambridge.org/gb/knowledge/isbn/item6618711/), Catherine McGeoch, 2012, book, with [companion website](http://www.cs.amherst.edu/alglab/)
+
+* [Experimental Methods for the Analysis of Optimization Algorithms](http://link.springer.com/book/10.1007/978-3-642-02538-9/page/1), eds. Thomas Bartz-Beielstein, Marco Chiarandini, Luís Paquete, Mike Preuss, book, 2010.
 
 * [A Theoretician's Guide to the Experimental Analysis of Algorithms](http://www2.research.att.com/~dsj/papers/experguide.pdf), David S Johnson, 2001, paper.
 
@@ -100,3 +117,12 @@ Toby Walsh, 1997, Research Report.  (Ewan MacIntyre was rather embarrassingly ca
 * [Sweave](http://www.stat.uni-muenchen.de/~leisch/Sweave/), "Sweave is a tool that allows to embed the R code for complete data analyses in latex documents. The purpose is to create dynamic reports, which can be updated automatically if data or analysis change."
 
 * [GenePattern Reproducible Research Document (GRRD)](https://www.broadinstitute.org/cancer/software/genepattern/grrd/AddIn)
+
+## Digital Preservation
+
+* [Digital Preservation](http://www.digitalpreservation.gov/), USA.
+
+* [Digital Curation Centre, DCC](http://www.dcc.ac.uk/), UK.
+
+* [International Journal of Digital Curation](http://www.ijdc.net/index.php/ijdc), Journal.
+
