@@ -71,6 +71,9 @@ Jon Claerbout
 
 * [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
 
+* [SHARE](http://is.ieis.tue.nl/staff/pvgorp/share/). Sharing Hosted Autonomous Research Environments. 
+
+
 ## Legal Issues and Licencing
 
 * [The Legal Framework for Reproducible Scientific Research: Licensing and Copyright](http://www.computer.org/csdl/mags/cs/2009/01/mcs2009010035-abs.html), Victoria Stodden, 
@@ -130,4 +133,8 @@ Toby Walsh, 1997, Research Report.  (Ewan MacIntyre was rather embarrassingly ca
 * [Digital Curation Centre, DCC](http://www.dcc.ac.uk/), UK.
 
 * [International Journal of Digital Curation](http://www.ijdc.net/index.php/ijdc), Journal.
+
+## Additional Sets of Links 
+
+* [Reproducible Research Links](http://reproducibleresearch.net/index.php/RR_links)
 
