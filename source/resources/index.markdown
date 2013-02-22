@@ -23,7 +23,7 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
     * [CDE: Automatically create portable Linux applications](http://www.pgbovine.net/cde.html)
 
-* [Verifiable Computational Research](http://vcr.stanford.edu/)
+* [Verifiable Computational Research](http://vcr.stanford.edu/).  Includes [A Universal Identifier for Computational Results](https://www.sciencedirect.com/science/article/pii/S1877050911001256).
 
     
 
