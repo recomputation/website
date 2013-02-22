@@ -66,7 +66,8 @@ Jon Claerbout
 
 * [Reproducible Research](http://www.computer.org/csdl/mags/cs/2009/01/index.html), Special part Issue of Computers in Science and Engineering, 2009.
 
-* [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
+* [Reproducible Research in Signal Processing: What, why, and how](http://infoscience.epfl.ch/record/136640/files/VandewalleKV09.pdf), 2009.
+
 
 
 ## Online Experiments
@@ -74,6 +75,8 @@ Jon Claerbout
 * [runMyCode](http://www.runmycode.org/CompanionSite/home.do)
 
 * [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
+
+* [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
 
 * [SHARE](http://is.ieis.tue.nl/staff/pvgorp/share/). Sharing Hosted Autonomous Research Environments.  
 
