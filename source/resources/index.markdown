@@ -38,7 +38,9 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [VisTrails](http://www.vistrails.org/index.php/Main_Page) "VisTrails is an open-source scientific workflow and provenance management system that provides support for simulations, data exploration and visualization."
 
-* [researchassistant](https://code.google.com/p/researchassistant/) Java library, by Daniel Ramage, described in his paper [RA: Research Assistant for the Computational Sciences](https://dl.acm.org/citation.cfm?id=1281700.1281719) 
+* [researchassistant](https://code.google.com/p/researchassistant/) Java library, by Daniel Ramage, described in his paper [RA: Research Assistant for the Computational Sciences](https://dl.acm.org/citation.cfm?id=1281700.1281719), 2007.
+
+* [Org.mode](http://orgmode.org), organising tool in Emacs by Carsten Dominik. Described in the paper [A Multi-Language Computing Environment for Literate Programming and Reproducible Research](http://www.jstatsoft.org/v46/i03/paper)
 
 ## Reproducible Computational Research
 
