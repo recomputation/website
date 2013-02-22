@@ -38,6 +38,8 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [VisTrails](http://www.vistrails.org/index.php/Main_Page) "VisTrails is an open-source scientific workflow and provenance management system that provides support for simulations, data exploration and visualization."
 
+* [researchassistant](https://code.google.com/p/researchassistant/) Java library, by Daniel Ramage, described in his paper [RA: Research Assistant for the Computational Sciences](https://dl.acm.org/citation.cfm?id=1281700.1281719) 
+
 ## Reproducible Computational Research
 
 * [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/icmlws09.pdf), Chris Drummond, 2009, paper.
