@@ -81,6 +81,8 @@ Jon Claerbout
 
 * [runMyCode](http://www.runmycode.org/CompanionSite/home.do), described in [RunMyCode.org: A novel dissemination and collaboration platform for executing published computational results](https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6404455&tag=1), 2012 paper.
 
+* [IPOL](http://www.ipol.im/) Image Processing On Line journal.   "Each article contains a text describing an algorithm and source code, with an online demonstration facility and an archive of online experiments."
+
 * [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
 
 * [Workflow 4ever](http://www.wf4ever-project.org/). Project to make workflows replicable.
