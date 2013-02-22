@@ -33,8 +33,8 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [Taverna Workflow Management System](http://www.taverna.org.uk/)
 
-* [Sumatra](http://software.incf.org/software/sumatra) 
-"Sumatra is a tool for managing and tracking projects based on numerical simulation and/or analysis, with the aim of supporting reproducible research"
+* [Sumatra](http://software.incf.org/software/sumatra) by Andrew Davison.
+"Sumatra is a tool for managing and tracking projects based on numerical simulation and/or analysis, with the aim of supporting reproducible research".  Described in his paper [Automated Capture of Experiment Context for Easier Reproducibility in Computational Research](http://www.computer.org/csdl/mags/cs/2012/04/mcs2012040048-abs.html).
 
 * [VisTrails](http://www.vistrails.org/index.php/Main_Page) "VisTrails is an open-source scientific workflow and provenance management system that provides support for simulations, data exploration and visualization."
 
