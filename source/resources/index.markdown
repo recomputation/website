@@ -44,6 +44,8 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 ## Reproducible Computational Research
 
+* [Winter School on Reproducible Science, Norway, Jan 2013](http://www.reproducibility.org/rsflog/index.php?/archives/325-School-on-Reproducible-Science.html)
+
 * [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/icmlws09.pdf), Chris Drummond, 2009, paper.
 
 * [Reproducible Research in Computational Science](https://www.sciencemag.org/content/334/6060/1226.full), Roger D Peng, Science, 2011, paper..
@@ -68,11 +70,14 @@ Jon Claerbout
 
 * [Reproducible Research in Signal Processing: What, why, and how](http://infoscience.epfl.ch/record/136640/files/VandewalleKV09.pdf), 2009.
 
+* [WaveLab and Reproducible Research](http://www-stat.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf), 1995.
+
+
 
 
 ## Online Experiments
 
-* [runMyCode](http://www.runmycode.org/CompanionSite/home.do)
+* [runMyCode](http://www.runmycode.org/CompanionSite/home.do), described in [RunMyCode.org: A novel dissemination and collaboration platform for executing published computational results](https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6404455&tag=1), 2012 paper.
 
 * [my Experiment](http://www.myexperiment.org/). Social network site for storing experimental workflows.
 
