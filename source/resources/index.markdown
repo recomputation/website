@@ -70,6 +70,8 @@ Jon Claerbout
 
 * [Reproducible Research in Signal Processing: What, why, and how](http://infoscience.epfl.ch/record/136640/files/VandewalleKV09.pdf), 2009.
 
+* [Statistical Analyses and Reproducible Research](https://biostats.bepress.com/bioconductor/paper2/), Gentleman and Temple Lang, 2004. Introduced the notion of a 'compendium'.
+
 * [WaveLab and Reproducible Research](http://www-stat.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf), 1995.
 
 
