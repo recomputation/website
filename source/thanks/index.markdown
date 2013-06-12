@@ -19,3 +19,5 @@ Amongst many others I would also thank fellow authors of "How Not To Do It", nam
 
 For more recent advice and discussions I thank my Adam Barker, Edwin Brady, Chris Jefferson, Lars Kotthoff, Steve Linton, Ian Miguel, Pete Nightingale, Patrick Prosser, and Karen Petrie.  
 
+For help from the CP 2013 conference I thank Christian Schulte and Laurent Michel.
+

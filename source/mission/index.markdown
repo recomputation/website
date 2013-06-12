@@ -8,7 +8,10 @@ footer: true
 ---
 
 
-Our goal is to make computational science experiments replicable by providing tools and a repository to store experiments in.  To achieve this our mission is:
+
+
+Our goal is to follow the [recomputation manifesto](/blog/2013/04/12/the-recomputation-manifesto/) and
+make computational science experiments recomputable by providing tools and a repository to store experiments in.  To achieve this our mission is:
 
 ***If we can compute your experiment now, anyone can recompute it 20 years from now***
 
@@ -21,7 +24,6 @@ Our goal is to make computational science experiments replicable by providing to
 
 2. [recomputation.org](http://recomputation.org)  will make its best efforts to ensure that all experiments which it believes to be recomputable will remain recomputable for all time. 
 
-4. [recomputation.org](http://recomputation.org)  will provide its code and tools using an appropriate open source licence, including server-side code.
 
 3. [recomputation.org](http://recomputation.org)  will always be free to those lodging bona-fide scientific experiments and to those obtaining past experiments, [provided that](#notes)
 
@@ -29,16 +31,19 @@ Our goal is to make computational science experiments replicable by providing to
     * experimenter's contributions are open source,  and
     * fees are not charged for the related scientific publication.
 
+4. [recomputation.org](http://recomputation.org)  will provide its code and tools using an appropriate open source licence, including server-side code.
+
 
 5. [recomputation.org](http://recomputation.org) 
 will serve as a testbed for scientific research into issues such as experimental techniques and methodologies.
 
 6. [recomputation.org](http://recomputation.org) 
-will seek to fund its mission through research funding, donations, and charging for services such as lodging non-open source or non-freely available experiments.
+will seek to fund its mission through research funding, donations, and charging for services such as lodging non-open source or non-freely available experiments. [see below](#notes)
 
 
 #### Notes:
 <a id="notes"></a>
 
-* I've written a [long blog post](/blog/2013/02/16/caveats-on-being-free/) on the caveats that come with the intended free price.
+* I've written a [long blog post](/blog/2013/02/16/caveats-on-being-free/) on the caveats that come with the intended free price.*
 
+Update 12 April 2013: Point 6 does not appear in [The Recomputation Manifesto](/blog/2013/04/12/the-recomputation-manifesto/) as I decided it was fairly obvious we would like to fund our efforts in various ways.   I will leave it here, however.

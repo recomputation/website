@@ -25,6 +25,7 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [Verifiable Computational Research](http://vcr.stanford.edu/).  Includes [A Universal Identifier for Computational Results](https://www.sciencedirect.com/science/article/pii/S1877050911001256).
 
+* [Reprozip](https://www.usenix.org/conference/tapp13/reprozip-using-provenance-support-computational-reproducibilitythe). A tool similar to CDE but focussed specifically on allowing reproduction of comptutational experiments.
     
 
 * [HAL: The High-performance Algorithm Laboratory](http://hal.cs.ubc.ca/), University of British Columbia.
@@ -43,6 +44,9 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 * [Org.mode](http://orgmode.org), organising tool in Emacs by Carsten Dominik. Described in the paper [A Multi-Language Computing Environment for Literate Programming and Reproducible Research](http://www.jstatsoft.org/v46/i03/paper)
 
 ## Reproducible Computational Research
+
+* [Setting the Default to Reproducible](http://stodden.net/icerm_report.pdf), Feb 2013, Report on the 
+ICERM Workshop on [Reproducibility in Computational and Experimental Mathematics](http://icerm.brown.edu/tw12-5-rcem), December 2012.  Very useful report with an Appendix full of advice and tool descriptions.
 
 * [Winter School on Reproducible Science, Norway, Jan 2013](http://www.reproducibility.org/rsflog/index.php?/archives/325-School-on-Reproducible-Science.html)
 
@@ -91,6 +95,7 @@ Jon Claerbout
 
     * [SHARE: a web portal for creating and sharing executable research papers](http://is.tm.tue.nl/staff/pvgorp/pro/phd/VanGorpMazanek2011ElsevierChallenge-cameraready.pdf), International Conference on Computational Science, ICCS 2011.
 
+* [MLComp](http://mlcomp.org). Website for objectively comparing Machine Learning programs
 
 
 ## Legal Issues and Licencing
@@ -102,6 +107,7 @@ Computers in Science and Engineering, 2009.
 * [CRAPL: An academic-strength open source license](http://matt.might.net/articles/crapl/)
 
 ## Best Practice in Scientific Code
+
 
 * [Scientific Code Manifesto](http://sciencecodemanifesto.org)
 

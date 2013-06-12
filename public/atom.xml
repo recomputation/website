@@ -4,7 +4,7 @@
   <title><![CDATA[recomputation.org]]></title>
   <link href="http://www.recomputation.org/atom.xml" rel="self"/>
   <link href="http://www.recomputation.org/"/>
-  <updated>2013-02-22T13:05:55+00:00</updated>
+  <updated>2013-06-11T21:53:28+01:00</updated>
   <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
@@ -12,6 +12,139 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to CP 2013 Authors]]></title>
+    <link href="http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors/"/>
+    <updated>2013-06-10T20:45:00+01:00</updated>
+    <id>http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors</id>
+    <content type="html"><![CDATA[<p><a href="http://4c.ucc.ie/~larsko/">Lars Kotthoff</a> and I would like to give a warm welcome to
+<a href="http://recomputation.org">recomputation.org</a> to any successful authors with papers at the <a href="http://cp2013.a4cp.org/">CP 2013 conference</a>.
+We will be giving a <a href="http://cp2013.a4cp.org/program/tutorials">tutorial on recomputation</a> at the conference, and we want to report on recomputation of as many papers from the conference as we can.</p>
+
+<p>We believe that experiments in Computer Science should be &#8220;recomputable&#8221;.  By this we mean that experiments should be repeatable, as exactly as possible (within reason) as used to make the published results, and that these recomputable experiments should be made available openly for as long as possible.   There are many reasons for doing this, and some are outlined in <a href="http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto/">&#8220;The Recomputation Manifesto&#8221;</a>.   There are two more important reasons not emphasised there.  First, by making your current experiments recomputatble, you will find it much easier to do your next experiment.  And second - though I state this without evidence - if you make your experiment recomputable, I expect you might get more citations in future: the added information you will give the community will be of great use.</p>
+
+<p>We do have ideas as to how to make experiments recomputable.  To test these ideas out, we would like a range of real life scientific experiments, and so you can help us by providing yours.   Since we come from Constraints, we thought that working with authors of accepted papers at CP 2013 would be an ideal starting point.</p>
+
+<p>A couple of quick responses to points which are often raised after people read The Recomputation Manifesto.</p>
+
+<p>First, we do wish to provide future researchers with copies of virtual machines in which they can run your experiments.  This does have overhead and bandwidth and storage implications.  However, this does <em>not</em> mean that you necessarily have to give us a virtual machine.   In most cases people run their experiments on hard silicon rather than virtual ones.  We would hope in many cases to be able to import them into VMs without you needing to construct and send one to us, although we will discuss this on a case by case basis.</p>
+
+<p>Second, a very common point is concern about the manifesto&#8217;s claim that runtime is a secondary issue.  We <em>do</em> think runtime is very important, and it is often the crux of a given scientific paper.  Thsi is true.  But our goal is to make the experiment recomputable, even if runtimes are not similar to what you achieved on bare silicon.  This does not detract from the value of the experiments you report in your paper.  But, by enmabling recomputations of experiments, the community will get access to your results on a wider variety of execution environments, and that may be interesting in itself.</p>
+
+<p>Ideally, we would like to make all experiments available from this site by serving them out as downloads and/or to be executed from this site. One issue that might limit this would be if your experiments are just too HUGE in disk space or run time.  That is not a bad thing in itself!  But we would still love to see what we can do.  The second obvious issue is licencing.  We would <em>very</em> strongly urge you to make your contributions open source, as many people have recently been advocating.  However, there may be issues which prevent this for your whole experiment, e.g. use of proprietary library.  While we might not be able to host your experiment in these circumstances, we would still love to work with you: and even the we still urge you to make your contributions open.  It&#8217;s not us just saying this.  Look at the
+<a href="http://sciencecodemanifesto.org">Scientific Code Manifesto</a>
+or not just
+<a href="http://www.nature.com/nature/journal/v482/n7386/full/nature10836.html">one</a> but
+<a href="http://www.nature.com/news/2010/101013/full/467753a.html">two</a> pieces in <em>Nature</em> on this topic.</p>
+
+<p>A few quick reassurances.  First, participation in this event for CP2013 has no effect on the publication of your paper: it is an optional extra.  Second, there is no deadline for participation.  But we do hope you will participate and contact us as soon as possible to do so.  The sooner you do the more time we have to make your experiment recomputable.  Also the sooner after you did your experiments, the fresher they will be in your mind, and the easier to help us make them recomputable.  Finally, of course expressing interest in no way commits you to proceeding further if you do not like what we are doing.</p>
+
+<p>This is all a very long way of saying &#8230; please join us in our efforts!</p>
+
+<p>To any CP 2013 authors or anyone else who wish to contact us, please email us at our new mail address <a href="mailto:contact@recomputation.org">contact@recomputation.org</a>.    Of course you should also feel free to contact us through emails to our normal addresses to.</p>
+
+<p>And finally, many thanks to Christian Schulte (programme chair of CP) and Laurent Michel (tutorial chair) for their help with our efforts.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Not a lot about Excel and some links]]></title>
+    <link href="http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links/"/>
+    <updated>2013-04-21T14:48:00+01:00</updated>
+    <id>http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links</id>
+    <content type="html"><![CDATA[<p>Reproducibility of computational experiments hit the headlines the other day.   Instead of citing one of the many news posts about it[(e.g. this one) http://www.bbc.co.uk/news/magazine-22223190], let&#8217;s go straight to the source:</p>
+
+<p><a href="http://www.peri.umass.edu/fileadmin/pdf/working_papers/working_papers_301-350/WP322.pdf">Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff</a>, by Thomas Herndon, Michael Ash, Robert Pollin, 15 April, 2013.</p>
+
+<p>It&#8217;s quite pleasing that this came out the same day as <a href="http://arxiv.org/abs/1304.3674">The Recomputation Manifesto</a>: that is the submission date to arXiv was Friday 12th but I think they circulated it on Monday 15th.   Also lucky in a sense as it saved me adding to it as a poster-boy example.</p>
+
+<p>It&#8217;s also particularly pleasing that this error was uncovered because students were set an exercise to replicate that study.   What a wonderful thing, and I wish it was far more common in computational science.</p>
+
+<p>Apart from these short comments there are a couple of reasons I don&#8217;t want to say much about this.</p>
+
+<p>First is that <a href="http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/">Victoria Stodden</a> has blogged excellently on the implications.   Second is that, since this is an Excel problem, at the minute this is not something we could accept into <a href="http://recomputation.org">recomputation.org</a>, at least accept and provide a full virtual machine.   Which is a pity, but the licencing issues are important.</p>
+
+<p>While I&#8217;m here I want to mention a couple of new links I have added to the <a href="http://www.recomputation.org/resources">resources page</a>, which I did not know about (but should have) and found from Victoria&#8217;s blog post.</p>
+
+<ul>
+<li><p><a href="http://stodden.net/icerm_report.pdf">Setting the Default to Reproducible</a>, Feb 2013, Report on the
+ICERM Workshop on <a href="http://icerm.brown.edu/tw12-5-rcem">Reproducibility in Computational and Experimental Mathematics</a>, December 2012.  Very useful report with an Appendix full of advice and tool descriptions.</p></li>
+<li><p><a href="https://www.usenix.org/conference/tapp13/reprozip-using-provenance-support-computational-reproducibilitythe">Reprozip</a>. A tool similar to CDE but focussed specifically on allowing reproduction of comptutational experiments.</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Run Time Performance Is A Secondary Issue]]></title>
+    <link href="http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue/"/>
+    <updated>2013-04-18T11:23:00+01:00</updated>
+    <id>http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue</id>
+    <content type="html"><![CDATA[<p>I have been surprised and pleased that the <a href="2013-04-12-the-recomputation-manifesto.html">Recomputation Manifesto</a> has
+attracted some attention after I put it on arXiv.  As well as comments on this blog, I have had various emails and
+also a <a href="http://redd.it/1cdhgb">reddit discussion</a>
+was started by an interested user (shii).    Not everyone has agreed with me, but there&#8217;s been no offensive or insulting posting, which is great.</p>
+
+<p>I have responded to individual comments but I have a couple of general points to make on issues which keep coming up. This post is about the first one.</p>
+
+<p>I said &#8220;runtime performance is a secondary issue&#8221;. Many people have reacted that often runtime is <em>the</em> most important issue in an experiment.  Of course I accept that. I see now I expressed myself badly. What I mean is that runtime performance is a secondary issue compared to the critical fact of making an experiment recomputable.
+The argument I was trying to make -
+not very clearly apparently - was that in
+attempting to set up tools to make experiments reproducible, being able to reproduce the exact run
+times from the original should be treated as a secondary concern. In large part because it is so difficult, if not impossible.</p>
+
+<p>One assumption some people make - I think I did until recently - is that there is some ideal runtime that our experiment should strive to get.   Runtime is influenced by factors like load on the machine, hyperthreading, and many other factors.  One can spend all one&#8217;s time eliminating these factors to get some &#8220;true&#8221; runtime, but then&#8230; the code one has optimised this way will be used in a heavily loaded machine with hyperthreading switched back on. I was particularly pleased by Simon Gog&#8217;s <a href="http://recomputation.com/blog/2013/04/12/the-recomputation-manifesto/#comment-864915074">comment</a>.   &#8220;Running it on a virtual machine might produce different results, but hey: that might give you new insights about your algorithm.&#8221;   Having experiments available to be recomputed in a variety of hardware and virtual environments should allow us to get a handle on the <em>distribution</em> of runtimes.   There is not normally one true hardware environment we need to work to.   Occasionally there is a specific hardware setup of interest, and that is the only thing that counts, but that is the exception.</p>
+
+<p>A second assumption people make is that you can&#8217;t get meaningful run times out of virtual machines or in the cloud.
+Actually, <a href="http://4c.ucc.ie/~larsko/">Lars Kotthoff</a>
+and I wrote a paper about getting reliable run times in the cloud: <a href="http://arxiv.org/abs/1110.6288">Reliability of Computational Experiments on Virtualised Hardware</a>.  The results were pretty positive.</p>
+
+<p>If we can provide frameworks in which people can rerun experiments, we can then investigate how to get the most useful run times
+and distributions of run times out of our experiments.   But this is a secondary issue to the recomputation effort, compared to getting experiments to be recomputable in the first place.</p>
+
+<p>I&#8217;m going to write a second post, about the practicality and ease of use of Virtual Machines for storing and distributing experiments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Recomputation Manifesto]]></title>
+    <link href="http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto/"/>
+    <updated>2013-04-12T14:56:00+01:00</updated>
+    <id>http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto</id>
+    <content type="html"><![CDATA[<p>I have just released
+<a href="http://www.recomputation.org/papers/Manifesto1_9479.pdf">The Recomputation Manifesto</a>.  This is a 6 page paper intended for a general audience, not a technical paper.  It forms the founding manifesto of <a href="http://recomputation.org">recomputation.org</a>.</p>
+
+<p>The abstract of the manifesto is this:</p>
+
+<blockquote><p>Replication of scientific experiments is critical to the advance of science. Unfortunately, the discipline of Computer Science has never treated replication seriously, even though computers are very good at doing the same thing over and over again. Not only are experiments rarely replicated, they are rarely even replicable in a meaningful way. Scientists are being encouraged to make their source code available, but this is only a small step. Even in the happy event that source code can be built and run successfully, running code is a long way away from being able to replicate the experiment that code was used for. I propose that the discipline of Computer Science must embrace replication of experiments as standard practice. I propose that the only credible technique to make experiments truly replicable is to provide copies of virtual machines in which the experiments are validated to run. I propose that tools and repositories should be made available to make this happen. I propose to be one of those who makes it happen.</p></blockquote>
+
+<p>The manifesto itself contains six theses, as follows</p>
+
+<blockquote><ol>
+<li>Computational experiments should be recomputable for all time</li>
+<li>Recomputation of recomputable experiments should be very easy</li>
+<li>It should be easier to make  experiments recomputable than not to</li>
+<li>Tools and repositories can help recomputation  become standard</li>
+<li>The <em>only</em> way to ensure recomputability is to provide virtual machines</li>
+<li>Runtime performance is a secondary issue</li>
+</ol>
+</blockquote>
+
+<p>I discuss these positions and argue for them.  I also summarise briefly the <a href="http://www.recomputation.org/mission/index.html">recomputation.org mission</a>.</p>
+
+<p>The paper will soon appear on <a href="http://arxiv.org">arxiv</a> and I will update this post with details when it does appear.</p>
+
+<ul>
+<li><a href="http://www.recomputation.org/papers/Manifesto1_9479.pdf">Manifesto1_9479.pdf</a><br/>
+This is Version 1, or to be more precise 1.9479.  But the four digit number just refers to the revision in the subversion repository it comes from, so there have not been that many version of it: there are many other papers in the repository I&#8217;m using.</li>
+</ul>
+
+
+<p><em>Update 16 April 2013:</em> The Manifesto is now available at <a href="http://arxiv.org">arXiv</a> as
+<a href="http://arxiv.org/abs/1304.3674v1">arXiv:1304.3674v1 cs.GL</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Caveats on being free, and licences]]></title>
