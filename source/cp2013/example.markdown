@@ -20,8 +20,8 @@ by Ian Gent, Karen Petrie and Jean-Francois Puget, Handbook of Constraint PRogra
 ## Downloads
 
 * [Readme file](experiment1/AAReadme) from the experiment top level directory.
-* [Vagrant Box](experiment1/recomputation-QueensPuzzle.box). Ubuntu 12.04. Approx 391 MiB. Note that this file is actually a tarfile containing VirtualBox files so may also be used directly with VirtualBox.  All code in this machine is open source except for VirtualBox Guest Additions, which are included in binary form.  
-    * md5sum 548da40e7580726fccb4db914d26498e  
+* [Vagrant Box](experiment1/recomputation-QueensPuzzle-b.box). Ubuntu 12.04. Approx 391 MiB. Note that this file is actually a tarfile containing VirtualBox files so may also be used directly with VirtualBox.  All code in this machine is open source except for VirtualBox Guest Additions, which are included in binary form.  
+    * md5sum 34a2e4b53268da0a0362375595d8d137
 * [Experiment directory, tar file](experiment1/recomputation-QueensPuzzle.tgz) including executable. Approx 33 MiB.
     * md5sum f005e54d1210cc7a6c42c00c4afb4d49  
 * [Experiment directory sources only, gzipped tar file](experiment1/recomputation-QueensPuzzle-src.tgz) of source only. Approx 1.8 MiB.
@@ -33,7 +33,7 @@ These instructions should work in a unix-like system with vagrant and VirtualBox
 
     mkdir anydir
     cd anydir
-    vagrant init cp2013-experiment1 http://recomputation.org/cp2013/experiment1/recomputation-QueensPuzzle.box
+    vagrant init cp2013-experiment1 http://recomputation.org/cp2013/experiment1/recomputation-QueensPuzzle-b.box
     vagrant up
    
 This will leave a virtual machine running.  When ready enter
@@ -55,4 +55,11 @@ The experiment will run automatically when the box is started by "vagrant up".  
 
 There are inevitable security risks in running any executable and/or virtual machine downloaded from the internet.  You should take appropriate precautions.
 
+## History
+
+Some older files are available.
+
+* [Vagrant Box](experiment1/recomputation-QueensPuzzle.box). Older box with incorrect vagrant file so that experiment did not run on vagrant up.
+ Ubuntu 12.04. Approx 391 MiB. Note that this file is actually a tarfile containing VirtualBox files so may also be used directly with VirtualBox.  All code in this machine is open source except for VirtualBox Guest Additions, which are included in binary form.  
+    * md5sum 548da40e7580726fccb4db914d26498e  
 
