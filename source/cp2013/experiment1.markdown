@@ -23,7 +23,7 @@ by Ian Gent, Karen Petrie and Jean-Francois Puget, Handbook of Constraint PRogra
 * [Readme file](experiment1/AAReadme) from the experiment top level directory.
 * A sample results directory is available as [gzipped tar file](experiment1/results-201306210540-Xae.tgz) or
 [zip file](experiment1/results-201306210540-Xae.zip)
-* Experiment URL: [http://recomputation.org/cp2013/example.html](http://recomputation.org/cp2013/example.html)
+* Experiment URL: [http://recomputation.org/cp2013/experiment1.html](http://recomputation.org/cp2013/experiment1.html)
 
 ## Recomputation Downloads
 
@@ -37,6 +37,9 @@ by Ian Gent, Karen Petrie and Jean-Francois Puget, Handbook of Constraint PRogra
 ## Quick Instructions for running 
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
+    
+The URL to obtain the Vagrant box for this experiment is 
+`http://recomputation.org/cp2013/experiment1/recomputation-QueensPuzzle-b.box`
 
     mkdir anydir
     cd anydir
@@ -52,7 +55,7 @@ which will stop the virtual machine (but leave a copy of it on your system.)
      
 ## Full Instructions for Running
 
-General instructions for running the vagrant box are contained on a [general page](general_instructions.html).
+General instructions for installing and running experiments from recomputation are contained on a [general page](general_instructions.html). We also give further instructions on e.g. removing a box or repackaging it after you make changes.
 
 The experiment will run automatically when the box is started by "vagrant up".  To disable this use this command instead 
 
@@ -60,7 +63,7 @@ The experiment will run automatically when the box is started by "vagrant up".  
 
 # Security Warning
 
-There are inevitable security risks in running any executable and/or virtual machine downloaded from the internet.  You should take appropriate precautions.
+There are inevitable security risks in running any executable and/or virtual machine downloaded from the internet. You should take appropriate precautions.
 
 ## History
 
