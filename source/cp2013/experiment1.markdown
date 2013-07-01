@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Experiment: Solution to a Chessboard Puzzle"
-date: 2013-06-21 20:45
+date: 2013-07-01 12:45
 comments: true
 sharing: true
 footer: true
@@ -53,7 +53,7 @@ It will leave a virtual machine running.  When ready enter
 
 which will stop the virtual machine (but leave a copy of it on your system.)
      
-## Full Instructions for Running
+## Further Instructions 
 
 General instructions for installing and running experiments from recomputation are contained on a [general page](general_instructions.html). We also give further instructions on e.g. removing a box or repackaging it after you make changes.
 

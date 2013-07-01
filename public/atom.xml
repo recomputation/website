@@ -4,7 +4,7 @@
   <title><![CDATA[recomputation.org]]></title>
   <link href="http://www.recomputation.org/atom.xml" rel="self"/>
   <link href="http://www.recomputation.org/"/>
-  <updated>2013-07-01T12:50:37+01:00</updated>
+  <updated>2013-07-01T13:04:51+01:00</updated>
   <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Our first experiment: A chess puzzle]]></title>
+    <link href="http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle/"/>
+    <updated>2013-07-01T12:52:00+01:00</updated>
+    <id>http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle</id>
+    <content type="html"><![CDATA[<p>We are very pleased to announce the first experiment available from recomputation.org.</p>
+
+<p>It is available at <a href="http://recomputation.org/cp2013/experiment1.html">http://recomputation.org/cp2013/experiment1.html</a>.</p>
+
+<p>This experiment is to solve a chess puzzle involving placing 10 queens of each colour so that 9 queens do
+not attack each other and the last queen of each colour attack each other but none of the other queens.  After downloading
+the experiment box and booting, it takes only about 1 minute to run.</p>
+
+<p>To run the experiment you will need Vagrant and Virtual Box.  Full instructions including obtaining these
+are at <a href="http://recomputation.org/cp2013/general_instructions.html">http://recomputation.org/cp2013/general_instructions.html</a>.</p>
+
+<p>If you do not have virtualisation software you can still download the full source for the experiment, which may still build and
+run, depending on your environment.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome to CP 2013 Authors]]></title>
