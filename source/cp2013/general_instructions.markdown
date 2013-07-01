@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "General Instructions for Running Experiments using VirtualBox and Vagrant"
-date: 2013-06-22 20:45
+date: 2013-07-01 12:45
 comments: true
 sharing: true
 footer: true
