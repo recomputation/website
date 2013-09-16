@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Experiment: Solution to a Chessboard Puzzle"
+title: "Experiment: Monette, Beldiceanu, Flener, Pearson"
 date: 2013-09-16 12:45
 comments: true
 sharing: true
