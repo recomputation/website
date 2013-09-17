@@ -22,7 +22,6 @@ Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Experiment authors: 
 Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Made recomputable by: Lars Kotthoff
-## * Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/ABGL.html](http://recomputation.org/cp2013/ABGL.html)
 
 ## Recomputation Downloads

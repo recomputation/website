@@ -22,7 +22,6 @@ Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simoni
 * Experiment authors: 
 Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * Made recomputable by: Lars Kotthoff
-## * Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/CMSS.html](http://recomputation.org/cp2013/CMSS.html)
 
 ## Recomputation Downloads

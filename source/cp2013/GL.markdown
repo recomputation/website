@@ -20,7 +20,6 @@ Stefano Gualandi and Michele Lombardi.
 
 * Experiment authors: Stefano Gualandi and Michele Lombardi.
 * Made recomputable by: Lars Kotthoff
-## * Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/GL.html](http://recomputation.org/cp2013/GL.html)
 
 ## Recomputation Downloads
