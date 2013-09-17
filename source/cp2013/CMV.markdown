@@ -1,46 +1,44 @@
 ---
 layout: page
-title: "Experiment: Di Gaspero, Rendl, Urli"
+title: "Experiment: Chakraborty, Meel, Vardi"
 date: 2013-09-17 12:45
 comments: true
 sharing: true
 footer: true
 ---
 
-## Experiment id: cp2013-GRU 
+## Experiment id: cp2013-CMV 
 
 This experiment are results presented in the following paper in the proceedings of CP 2013, edited by Christian Schulte,
 [published by Springer](https://www.springer.com/computer/theoretical+computer+science/book/978-3-642-40626-3).
 
-[Constraint-based approaches for Balancing Bike Sharing Systems](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_56),
-by 
-
-Luca Di Gaspero, Andrea Rendl, Tommaso Urli
+[A Scalable Approximate Model Counter](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_18), by 
+Supratik Chakraborty, Kuldeep S. Meel, Moshe Y. Vardi
 
 *Note: the experiment id and url contained here are not persistent and are subject to change*
 
 * Experiment authors: 
-Luca Di Gaspero, Andrea Rendl, Tommaso Urli.
+Supratik Chakraborty, Kuldeep S. Meel, Moshe Y. Vardi
 * Made recomputable by: Lars Kotthoff
 ## * Approximate timescale after boot: weeks.
-* Experiment URL: [http://recomputation.org/cp2013/GRU.html](http://recomputation.org/cp2013/GRU.html)
+* Experiment URL: [http://recomputation.org/cp2013/CMV.html](http://recomputation.org/cp2013/CMV.html)
 
 ## Recomputation Downloads
 
-* [Vagrant Box](GRU/recomputation-cp2013-GRU.box). Approx 850 MB. 
+* [Vagrant Box](CMV/recomputation-cp2013-CMV.box). Approx 1.2GB. 
 Note that this file is actually a tarfile containing VirtualBox files so may also be used directly with VirtualBox.  All code in this machine is open source except for VirtualBox Guest Additions, which are included in binary form.  
-    * md5sum `51d02a6c8ef7135a650fc239df522e01`
+    * md5sum `4c4325c226f0d03e7d5e14804621c6bd`
 
 ## Quick Instructions for running 
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
     
 The URL to obtain the Vagrant box for this experiment is 
-`http://recomputation.org/cp2013/GRU/recomputation-cp2013-GRU.box`
+`http://recomputation.org/cp2013/CMV/recomputation-cp2013-CMV.box`
 
     mkdir anydir
     cd anydir
-    vagrant init http://recomputation.org/cp2013/GRU/recomputation-cp2013-GRU.box
+    vagrant init http://recomputation.org/cp2013/CMV/recomputation-cp2013-CMV.box
     vagrant up
    
 This should run the experiment and create a new results directory in the current diectory. 
