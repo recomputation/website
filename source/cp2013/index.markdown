@@ -11,7 +11,7 @@ footer: true
 
 At the [The 19th International Conference on Principles and Practice of Constraint Programming](http://cp2013.a4cp.org/), we asked the authors of accepted papers whether they would be interested in working with us in making their experiments recomputable. This was the first time we had done so.
 
-Slides from the first half of the Tutorial at CP by Ian Gent and Lars Kotthoff are [available](/papers/CP2013TutorialSlidesA.pdf).
+Slides from the tutorial at CP by Ian Gent and Lars Kotthoff are [available](/papers/CP2013TutorialSlides.pdf).
 
 
 In total, we received 11 expressions of interest. By the time of the conference,
