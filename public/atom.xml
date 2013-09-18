@@ -4,7 +4,7 @@
   <title><![CDATA[recomputation.org]]></title>
   <link href="http://www.recomputation.org/atom.xml" rel="self"/>
   <link href="http://www.recomputation.org/"/>
-  <updated>2013-07-01T13:04:51+01:00</updated>
+  <updated>2013-09-18T17:36:10+02:00</updated>
   <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
@@ -14,17 +14,83 @@
 
   
   <entry>
+    <title type="html"><![CDATA[On Virtual Machines Considered Harmful for Reproducibility]]></title>
+    <link href="http://www.recomputation.org/blog/2013/07/16/on-virtual-machines-considered-harmful-for-reproducibility/"/>
+    <updated>2013-07-16T18:07:00+02:00</updated>
+    <id>http://www.recomputation.org/blog/2013/07/16/on-virtual-machines-considered-harmful-for-reproducibility</id>
+    <content type="html"><![CDATA[<p>This post is to summarise a couple of comments I made to a post from Titus Brown.
+But I&#8217;m crossposting here
+because I really want to be the kind of scientist who focusses on points made against his point of view, and
+gives them air.</p>
+
+<p>First some background. I recently wrote a <a href="http://www.software.ac.uk/blog/2013-07-09-recomputation-manifesto">a blog post about the recomputation manifesto</a>
+at the <a href="http://www.software.ac.uk/">Software Sustainability Institute</a>. I was very pleased to see this cause some interesting discussion
+take place at <a href="https://news.ycombinator.com/item?id=6050138">Hacker News</a>.</p>
+
+<p>By far the most interesting response I saw today was this tweet.</p>
+
+<blockquote class="twitter-tweet"><p>The Recomputation Manifest is great (<a href="http://t.co/uKkwkRw9kC">http://t.co/uKkwkRw9kC</a>) but I fundamentally disagree with loaded-VM approach <a href="http://t.co/UjkLN6BLwF">http://t.co/UjkLN6BLwF</a></p>&mdash; Titus Brown (@ctitusbrown) <a href="https://twitter.com/ctitusbrown/statuses/357147872971603969">July 16, 2013</a></blockquote>
+
+
+<script async src="http://www.recomputation.org//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>This gave me a scare and a thrill because Titus Brown - as I mention in the blog post - has gone out of his way to make his experiments recomputable so I really
+admire him&#8230; so the thrill was him saying the Manifesto is great.  The scare was the fundamental disagreement and when I saw the blog post title <a href="http://ivory.idyll.org/blog/vms-considered-harmful.html">&#8220;Virtual Machines Considered Harmful for Reproducibility&#8221;</a>, I got even more scared.  And then embarrassed when I realised the post was 7 months old.</p>
+
+<p>Please read Titus&#8217;s post in full, but here are some taster quotes:</p>
+
+<blockquote><p>This idea &#8211; that posting a VM is sufficient for reproducibility &#8211; has hit my Twitter feed a couple of times now, and each time I feel compelled to make the point that this isn&#8217;t useful reproducibility.  &#8230;</p>
+
+<p>To put it another way, it is certainly true that posting a virtual machine is a way to make your research reproducible. It&#8217;s just not a very useful way, in the sense that it effectively blocks remixing or mashing up the code. &#8230;</p>
+
+<p>In essence, providing a gigantic black box of custom installed code that was installed, set up, and executed by experts just isn&#8217;t very useful to many people.</p></blockquote>
+
+<p>To my relief, there&#8217;s almost nothing I disagree with in Titus&#8217;s post.  He makes a lot of great points.   Really. Read the post.</p>
+
+<p>What I&#8217;m going to do is (slightly edited) repost my comments on more or less the only things I did disagree with&#8230; but honestly, these are minor points.</p>
+
+<p>Basically I agree with almost everything you say. <em>From now on &#8220;you&#8221; means Titus Brown since I was commenting on his post</em>.</p>
+
+<p>You have probably seen but this is a paper also arguing against pure replication:
+<a href="http://cogprints.org/7691/7/icmlws09.pdf">Replicability is not Reproducibility: Nor is it Good Science</a></p>
+
+<p>Perhaps my overall response can be summarised as this.
+You say &#8220;that posting a VM is sufficient for reproducibility&#8221; and I agree completely. But I would say that a VM is <em>necessary</em> for reproducibility.</p>
+
+<p>But yes, making it as easy as possible for anyone to reproduce your work will help everyone including yourself. And most importantly yourself.</p>
+
+<p>Actually it&#8217;s NOT necessary for you to provide the VM. It&#8217;s fine if you can provide an installer or other workflow which works in my VM. Then I can archive it, and the community has a safe VM we can fall back on if the installer stops working for some weird reason.</p>
+
+<p>So there are a few things I disagree with.</p>
+
+<p>The title. I don&#8217;t agree VMs are harmful for reproducibility, although I can see that focussing primarily on VMs could lead to people thinking that they are sufficient as well as necessary - and I&#8217;ll try to avoid this in my own prosletizing in future.  And it&#8217;s a title of a blog post, it&#8217;s fine if the title is slightly more provocative than the content.</p>
+
+<p>I think I agree with Bill Howe and disagree with your disagreement with him. That is I would rather have shoddy VMs than nothing, and unfortunately I think that&#8217;s the choice we face. If we can bring people in to the area of making experiments reproducible then we have a chance to persuade them to do it in better and more useful ways.</p>
+
+<p>Incidentally I&#8217;m trying to sell the word &#8220;recomputation&#8221; for replication of computational experiments. Without doubt or ambiguity that means what you describe as non-useful reproducibility.</p>
+
+<p>And finally I think a VM is still very useful for makers too - though I think that&#8217;s a lovely point to make about users/makers. One thing I like about making a VM available is that if I can&#8217;t get your installer to work, I can go in and look at the exact machine and see if I can figure out what&#8217;s up - and maybe other nice aspects of your setup I can copy.</p>
+
+<p>Anyway, I remain a huge fan and No idea why I only spotted this blog post today.
+Thanks for the really interesting post.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Our first experiment: A chess puzzle]]></title>
     <link href="http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle/"/>
-    <updated>2013-07-01T12:52:00+01:00</updated>
+    <updated>2013-07-01T13:17:00+02:00</updated>
     <id>http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle</id>
-    <content type="html"><![CDATA[<p>We are very pleased to announce the first experiment available from recomputation.org.</p>
+    <content type="html"><![CDATA[<p>We are very pleased to announce the first experiment available from recomputation.org. <br/>
+After downloading the experiment box and booting, it takes only about 1 minute to run.
+It is available at <a href="http://recomputation.org/cp2013/experiment1.html">http://recomputation.org/cp2013/experiment1.html</a>.
+The experiment is to confirm that the following statement is true.</p>
 
-<p>It is available at <a href="http://recomputation.org/cp2013/experiment1.html">http://recomputation.org/cp2013/experiment1.html</a>.</p>
+<p><img class="right" src="http://www.recomputation.org/images/Puzzle9Q.png" width="400" title="Solution to a chess puzzle" ></p>
 
-<p>This experiment is to solve a chess puzzle involving placing 10 queens of each colour so that 9 queens do
-not attack each other and the last queen of each colour attack each other but none of the other queens.  After downloading
-the experiment box and booting, it takes only about 1 minute to run.</p>
+<blockquote><p>The illustrated position contains the king and all nine possible queens of each colour, i.e. the original and eight promoted pawns.  No queen is on the same row, column or diagonal as any piece of the opposite colour.   <br/>
+The illustrated position is the only possible chess position for which the description of the previous paragraph is true, excepting rotations and reflections of the chessboard, or swapping black and white.</p></blockquote>
 
 <p>To run the experiment you will need Vagrant and Virtual Box.  Full instructions including obtaining these
 are at <a href="http://recomputation.org/cp2013/general_instructions.html">http://recomputation.org/cp2013/general_instructions.html</a>.</p>
@@ -37,7 +103,7 @@ run, depending on your environment.</p>
   <entry>
     <title type="html"><![CDATA[Welcome to CP 2013 Authors]]></title>
     <link href="http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors/"/>
-    <updated>2013-06-10T20:45:00+01:00</updated>
+    <updated>2013-06-10T20:45:00+02:00</updated>
     <id>http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors</id>
     <content type="html"><![CDATA[<p><a href="http://4c.ucc.ie/~larsko/">Lars Kotthoff</a> and I would like to give a warm welcome to
 <a href="http://recomputation.org">recomputation.org</a> to any successful authors with papers at the <a href="http://cp2013.a4cp.org/">CP 2013 conference</a>.
@@ -72,7 +138,7 @@ or not just
   <entry>
     <title type="html"><![CDATA[Not a lot about Excel and some links]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links/"/>
-    <updated>2013-04-21T14:48:00+01:00</updated>
+    <updated>2013-04-21T14:48:00+02:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links</id>
     <content type="html"><![CDATA[<p>Reproducibility of computational experiments hit the headlines the other day.   Instead of citing one of the many news posts about it[(e.g. this one) http://www.bbc.co.uk/news/magazine-22223190], let&#8217;s go straight to the source:</p>
 
@@ -100,7 +166,7 @@ ICERM Workshop on <a href="http://icerm.brown.edu/tw12-5-rcem">Reproducibility i
   <entry>
     <title type="html"><![CDATA[Run Time Performance Is A Secondary Issue]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue/"/>
-    <updated>2013-04-18T11:23:00+01:00</updated>
+    <updated>2013-04-18T11:23:00+02:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue</id>
     <content type="html"><![CDATA[<p>I have been surprised and pleased that the <a href="2013-04-12-the-recomputation-manifesto.html">Recomputation Manifesto</a> has
 attracted some attention after I put it on arXiv.  As well as comments on this blog, I have had various emails and
@@ -131,7 +197,7 @@ and distributions of run times out of our experiments.   But this is a secondary
   <entry>
     <title type="html"><![CDATA[The Recomputation Manifesto]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto/"/>
-    <updated>2013-04-12T14:56:00+01:00</updated>
+    <updated>2013-04-12T14:56:00+02:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto</id>
     <content type="html"><![CDATA[<p>I have just released
 <a href="http://www.recomputation.org/papers/Manifesto1_9479.pdf">The Recomputation Manifesto</a>.  This is a 6 page paper intended for a general audience, not a technical paper.  It forms the founding manifesto of <a href="http://recomputation.org">recomputation.org</a>.</p>
@@ -170,7 +236,7 @@ This is Version 1, or to be more precise 1.9479.  But the four digit number just
   <entry>
     <title type="html"><![CDATA[Caveats on being free, and licences]]></title>
     <link href="http://www.recomputation.org/blog/2013/02/16/caveats-on-being-free/"/>
-    <updated>2013-02-16T11:36:00+00:00</updated>
+    <updated>2013-02-16T11:36:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/02/16/caveats-on-being-free</id>
     <content type="html"><![CDATA[<p>I have just posted the <a href="http://www.recomputation.org/mission/index.html">Guiding principles</a> for <a href="http://recomputation.org">recomputation.org</a>.  One principle needs some elaboration:</p>
 
@@ -245,7 +311,7 @@ I published a paper in a platinum level open access journal <a href="http://jair
   <entry>
     <title type="html"><![CDATA[Welcome to recomputation.org]]></title>
     <link href="http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org/"/>
-    <updated>2013-02-15T08:47:00+00:00</updated>
+    <updated>2013-02-15T08:47:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org</id>
     <content type="html"><![CDATA[<p>On the day after Valentine&#8217;s Day, 2013, I&#8217;d <em>love</em> to welcome you to <a href="http://recomputation.org">recomputation.org</a>.
 My name is <a href="http://www.cs.st-andrews.ac.uk/~ipg">Ian Gent</a> and I&#8217;m Professor of Computer Science at the University of St Andrews.</p>
