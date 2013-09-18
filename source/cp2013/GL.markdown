@@ -12,9 +12,9 @@ footer: true
 This experiment are results presented in the following paper in the proceedings of CP 2013, edited by Christian Schulte,
 [published by Springer](https://www.springer.com/computer/theoretical+computer+science/book/978-3-642-40626-3).
 
-[A Simple and Effective Decomposition for the Multidimensional Binpacking Constraint"](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_29),
+[A Simple and Effective Decomposition for the Multidimensional Binpacking Constraint](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_29),
 by 
-Stefano Gualandi and Michele Lombardi.
+Stefano Gualandi and Michele Lombardi
 
 *Note: the experiment id and url contained here are not persistent and are subject to change*
 

@@ -14,7 +14,7 @@ This experiment are results presented in the following paper in the proceedings 
 
 [A Parametric Propagator for Discretely Convex Pairs of Sum Constraints](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_40), 
 by 
-Jean-Noël Monette, Nicolas Beldiceanu, Pierre Flener, Justin Pearson.  
+Jean-Noël Monette, Nicolas Beldiceanu, Pierre Flener, Justin Pearson
 
 
 *Note: the experiment id and url contained here are not persistent and are subject to change*

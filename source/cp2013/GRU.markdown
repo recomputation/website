@@ -14,7 +14,6 @@ This experiment are results presented in the following paper in the proceedings 
 
 [Constraint-based approaches for Balancing Bike Sharing Systems](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_56),
 by 
-
 Luca Di Gaspero, Andrea Rendl, Tommaso Urli
 
 *Note: the experiment id and url contained here are not persistent and are subject to change*
