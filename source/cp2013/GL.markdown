@@ -21,7 +21,7 @@ Stefano Gualandi and Michele Lombardi
 * Experiment authors: Stefano Gualandi and Michele Lombardi.
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/GL.html](http://recomputation.org/cp2013/GL.html)
-* Live URL: https://live.recomputation.org:8443/job/binpacking-decomp-cp/
+* Live URL: [https://live.recomputation.org:8443/job/binpacking-decomp-cp/](https://live.recomputation.org:8443/job/binpacking-decomp-cp/)
 
 ## Recomputation Downloads
 

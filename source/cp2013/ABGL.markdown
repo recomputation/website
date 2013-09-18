@@ -23,7 +23,7 @@ Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/ABGL.html](http://recomputation.org/cp2013/ABGL.html)
-* Live URL: https://live.recomputation.org:8443/job/maxsat-cp/
+* Live URL: [https://live.recomputation.org:8443/job/maxsat-cp/](https://live.recomputation.org:8443/job/maxsat-cp/)
 
 ## Recomputation Downloads
 

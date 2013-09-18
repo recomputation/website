@@ -23,7 +23,7 @@ Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/CMSS.html](http://recomputation.org/cp2013/CMSS.html)
-* Live URL: https://live.recomputation.org:8443/job/binpacking-cp/
+* Live URL: [https://live.recomputation.org:8443/job/binpacking-cp/](https://live.recomputation.org:8443/job/binpacking-cp/)
 
 ## Recomputation Downloads
 

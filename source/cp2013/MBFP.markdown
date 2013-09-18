@@ -23,7 +23,7 @@ Jean-Noël Monette, Nicolas Beldiceanu, Pierre Flener, Justin Pearson
 * Made recomputable by: Ian Gent
 * Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/MBFP.html](http://recomputation.org/cp2013/MBFP.html)
-* Live URL: https://live.recomputation.org:8443/job/mbfp-cp/
+* Live URL: [https://live.recomputation.org:8443/job/mbfp-cp/](https://live.recomputation.org:8443/job/mbfp-cp/)
 
 ## Recomputation Downloads
 
