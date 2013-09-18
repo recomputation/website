@@ -38,7 +38,7 @@ The URL to obtain the Vagrant box for this experiment is
 
     mkdir anydir
     cd anydir
-    vagrant init http://recomputation.org/cp2013/GL/recomputation-cp2013-GL.box
+    vagrant init cp2013-GL http://recomputation.org/cp2013/GL/recomputation-cp2013-GL.box
     vagrant up
    
 This should run the experiment and create a new results directory in the current directory. 
