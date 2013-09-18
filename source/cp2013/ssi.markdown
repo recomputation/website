@@ -119,7 +119,7 @@ has made the case in detail. Very recently [David Flanders](http://dfflanders.wo
 made a similar case.
 
 There is a problem that using virtual machines brings. Basically, they are big. The VM for the experiment above is almost 400MB to download. And it's downloading and uploading that is the real 
-problem. As well as being cheap, disk space is scalable (because I can buy more disks). But download speeds limit how many VMs sombody can download and run. Upload speeds limit how fast they can give us VMs: and some experiments might need hundreds of gigabytes of data. 
+problem. As well as being cheap, disk space is scalable (because I can buy more disks). But download speeds limit how many VMs somebody can download and run. Upload speeds limit how fast they can give us VMs: and some experiments might need hundreds of gigabytes of data. 
 
 One thing I hate is when people say "No, there's no problem" and then say "because you can do X". What they mean is: *"Yes,* there's a problem and you can do X as a workaround."
 
@@ -151,7 +151,7 @@ on a wide variety of VMs running on a variety of different hardware.
 So my claim remains: runtime performance is secondary to the crux of recomputation. *And* if you make your experiments recomputable, maybe over time we will get a better understanding how your performance is affected by the underlying real or virtualised hardware . 
 
 
-## recomputation.org and Software Sustainibility
+## recomputation.org and Software Sustainability
 
 I've mentioned the website [recomputation.org](recomputation.org), intended to be a repository of recomputable experiments for all time. Our slogan is "If we can compute your experiment now, anyone can recompute it 20 years from now". Twenty years - never mind all time - is an ambitious target, especially for a repository which now holds one experiment (the chess puzzle).
 We are ambitious, and unashamedly so. We want to change the way Computer Science is done. 
@@ -163,7 +163,7 @@ But of course
 there are many many things that SSI do that can help us. Apart from anything else, a critical point is to ensure sustainability of our own
 software and systems over the long term.
 
-Oh, and by the way, it's not just Sotware Sustainability I'm looking forward to working with. If something I've said sparks your interest - or your disagreement - I'd love to hear from you 
+Oh, and by the way, it's not just Software Sustainability I'm looking forward to working with. If something I've said sparks your interest - or your disagreement - I'd love to hear from you 
 and maybe work with you to make computing more recomputable in the future.
 
 

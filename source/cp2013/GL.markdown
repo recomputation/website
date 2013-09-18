@@ -21,6 +21,7 @@ Stefano Gualandi and Michele Lombardi.
 * Experiment authors: Stefano Gualandi and Michele Lombardi.
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/GL.html](http://recomputation.org/cp2013/GL.html)
+* Live URL: https://live.recomputation.org:8443/job/binpacking-decomp-cp/
 
 ## Recomputation Downloads
 
@@ -29,13 +30,6 @@ Note that this file is actually a tarfile containing VirtualBox files so may als
     * md5sum `6155ffcfa7fc9be997a76090e9e003a7`
 
 ## Quick Instructions for running 
-
-*Note:* Unfortunately we are not able to distribute the full experiment, because it includes a copy of CPLEX which we do not
-have the licence permission to distribute.  If you have a copy of this library, you can place it in the same directory ("anydir" below) 
-where the experiment will look for it.  In this case you should be able to run the full experiment.
-For further details please contact the authors.  
-The following instructions apply to
-the partial experiment we are able to distribute.  
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
     
@@ -47,7 +41,7 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init http://recomputation.org/cp2013/GL/recomputation-cp2013-GL.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
+This should run the experiment and create a new results directory in the current directory. 
 It will leave a virtual machine running.  When this has finished enter
 
     vagrant halt
@@ -69,6 +63,6 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
-
+September 18, 2013. Add live URL.
 
 

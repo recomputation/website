@@ -23,6 +23,7 @@ Luca Di Gaspero, Andrea Rendl, Tommaso Urli
 Luca Di Gaspero, Andrea Rendl, Tommaso Urli.
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/GRU.html](http://recomputation.org/cp2013/GRU.html)
+* Live URL: https://live.recomputation.org:8443/job/bbcs-cp/
 
 ## Recomputation Downloads
 
@@ -42,7 +43,7 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init http://recomputation.org/cp2013/GRU/recomputation-cp2013-GRU.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
+This should run the experiment and create a new results directory in the current directory. 
 It will leave a virtual machine running.  When this has finished enter
 
     vagrant halt
@@ -64,6 +65,6 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
-
+September 18, 2013. Add live URL.
 
 

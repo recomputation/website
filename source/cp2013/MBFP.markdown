@@ -23,6 +23,7 @@ Jean-Noël Monette, Nicolas Beldiceanu, Pierre Flener, Justin Pearson.
 * Made recomputable by: Ian Gent
 * Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/MBFP.html](http://recomputation.org/cp2013/MBFP.html)
+* Live URL: https://live.recomputation.org:8443/job/mbfp-cp/
 
 ## Recomputation Downloads
 
@@ -42,7 +43,7 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init http://recomputation.org/cp2013/MBFP/recomputation-cp2013-MBFP.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
+This should run the experiment and create a new results directory in the current directory. 
 It will leave a virtual machine running.  When this has finished enter
 
     vagrant halt
@@ -64,6 +65,6 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 16, 2013.  Page set up.
-
+September 18, 2013. Add live URL.
 
 

@@ -76,7 +76,7 @@ between the guest and host machine.
 
 ## Changing properties of the VM
 
-If you need more RAM or cpus (or less) in the VM as distributed in the box, or to change other features, you can use VBoxManage.
+If you need more RAM or CPUs (or less) in the VM as distributed in the box, or to change other features, you can use VBoxManage.
 
 E.g. 
 
@@ -92,7 +92,7 @@ Then you can do
 
     $ VBoxManage modifyvm 451e2506-b2b4-4587-8b60-b24e3ea596a2 --memory 65536 --cpus 16
 
-to eg. get 64GB RAM and 16 cpus (though I found this incredibly inefficient in practice.)  See [the VBoxManage](http://www.virtualbox.org/manual/ch08.html) manual page for more options.
+to e.g. get 64GB RAM and 16 CPUs (though I found this incredibly inefficient in practice.)  See [the VBoxManage](http://www.virtualbox.org/manual/ch08.html) manual page for more options.
 
 Note that what you change will get stored if you do a vagrant package (see below).   You can also change these settings in the configuration Vagrantfile.
 

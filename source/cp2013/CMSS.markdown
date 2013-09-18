@@ -14,7 +14,7 @@ This experiment are results presented in the following paper in the proceedings 
 
 [Bin Packing with Linear Usage Costs - An Application to Energy Management in Data Centres](http://link.springer.com/chapter/10.1007/978-3-642-40627-0_7),
 by 
-Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simoni
+Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 
 
 *Note: the experiment id and url contained here are not persistent and are subject to change*
@@ -23,6 +23,7 @@ Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simoni
 Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/CMSS.html](http://recomputation.org/cp2013/CMSS.html)
+* Live URL: https://live.recomputation.org:8443/job/binpacking-cp/
 
 ## Recomputation Downloads
 
@@ -31,6 +32,8 @@ Note that this file is actually a tarfile containing VirtualBox files so may als
     * md5sum `14efb14632a664b3c04da38117a364ae`
 
 ## Quick Instructions for running 
+
+*Note:* Part of the experiments use [IBM CPLEX](http://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/), which we are unable to include in the virtual machine because of licensing restrictions. To run the experiments that require CPLEX, put the CPLEX native libraries (the .so files) into the same directory as the virtual machine before starting it. They will be picked up automatically when the virtual machine is started.
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
     
@@ -42,7 +45,7 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init http://recomputation.org/cp2013/CMSS/recomputation-cp2013-CMSS.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
+This should run the experiment and create a new results directory in the current directory. 
 It will leave a virtual machine running.  When this has finished enter
 
     vagrant halt
@@ -64,6 +67,6 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
-
+September 18, 2013. Add note about CPLEX. Add live URL.
 
 

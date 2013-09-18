@@ -23,6 +23,7 @@ Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/ABGL.html](http://recomputation.org/cp2013/ABGL.html)
+* Live URL: https://live.recomputation.org:8443/job/maxsat-cp/
 
 ## Recomputation Downloads
 
@@ -32,9 +33,9 @@ Note that this file is actually a tarfile containing VirtualBox files so may als
 
 ## Quick Instructions for running 
 
-*Note:* Unfortunately we are not able to distribute the full experiment, because it includes a portfolio of MaxSAT solvers which we do not 
-have the licence permission to distribute.  For further details please contact the authors.  The following instructions apply to 
-the partial experiment we are able to distribute.
+*Note:* Unfortunately we are not able to distribute the full experiment, because it includes a portfolio of MaxSAT solvers which we do not have the licence permission to distribute. All of the problem instances the experiments were run on are part of the virtual machine, but no solvers are. The virtual machine assumes that the directory it is started from contains a directory "solvers/" that contains the actual solver binaries. It will run all executable files in that directory on all problem instances. If there are no solvers in the specified place, nothing will be run.
+
+For a list of solvers used and more information, please contact the authors.
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
     
@@ -46,8 +47,8 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init http://recomputation.org/cp2013/ABGL/recomputation-cp2013-ABGL.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
-It will leave a virtual machine running.  When this has finished enter
+This should run the experiment and create a new results directory in the current directory. 
+It will leave the virtual machine running.  When the experiments are finished, enter
 
     vagrant halt
 
@@ -61,6 +62,11 @@ The experiment will run automatically when the box is started by "vagrant up".  
 
     vagrant up --no-provision
 
+Note that the experiments in this box use a work queueing system that will run
+the experiments asynchronously. This means that "vagrant up" will return, but
+the experiments will still be running. You need to verify yourself that the
+experiments have finished before shutting down the virtual machine.
+
 # Security Warning
 
 There are inevitable security risks in running any executable and/or virtual machine downloaded from the internet. You should take appropriate precautions.
@@ -68,6 +74,4 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
-
-
-
+September 18, 2013. Clarify that solvers need to be supplied separately. Add live URL.

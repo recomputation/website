@@ -46,7 +46,7 @@ The URL to obtain the Vagrant box for this experiment is
     vagrant init cp2013-experiment1 http://recomputation.org/cp2013/experiment1/recomputation-QueensPuzzle-b.box
     vagrant up
    
-This should run the experiment and create a new results directory in the current diectory. 
+This should run the experiment and create a new results directory in the current directory. 
 It will leave a virtual machine running.  When ready enter
 
     vagrant halt
