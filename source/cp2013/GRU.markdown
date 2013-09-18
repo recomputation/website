@@ -22,7 +22,7 @@ Luca Di Gaspero, Andrea Rendl, Tommaso Urli
 Luca Di Gaspero, Andrea Rendl, Tommaso Urli.
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/GRU.html](http://recomputation.org/cp2013/GRU.html)
-* Live URL: https://live.recomputation.org:8443/job/bbcs-cp/
+* Live URL: [https://live.recomputation.org:8443/job/bbcs-cp/](https://live.recomputation.org:8443/job/bbcs-cp/)
 
 ## Recomputation Downloads
 
@@ -64,6 +64,7 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
+
 September 18, 2013. Add live URL.
 
 

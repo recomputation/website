@@ -21,7 +21,7 @@ Stefano Gualandi and Michele Lombardi
 * Experiment authors: Stefano Gualandi and Michele Lombardi.
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/GL.html](http://recomputation.org/cp2013/GL.html)
-* Live URL: https://live.recomputation.org:8443/job/binpacking-decomp-cp/
+* Live URL: [https://live.recomputation.org:8443/job/binpacking-decomp-cp/](https://live.recomputation.org:8443/job/binpacking-decomp-cp/)
 
 ## Recomputation Downloads
 
@@ -63,6 +63,7 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
+
 September 18, 2013. Add live URL.
 
 

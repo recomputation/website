@@ -23,7 +23,7 @@ Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Made recomputable by: Lars Kotthoff
 * Experiment URL: [http://recomputation.org/cp2013/ABGL.html](http://recomputation.org/cp2013/ABGL.html)
-* Live URL: https://live.recomputation.org:8443/job/maxsat-cp/
+* Live URL: [https://live.recomputation.org:8443/job/maxsat-cp/](https://live.recomputation.org:8443/job/maxsat-cp/)
 
 ## Recomputation Downloads
 
@@ -74,4 +74,5 @@ There are inevitable security risks in running any executable and/or virtual mac
 ## History
 
 September 17, 2013.  Page set up.
+
 September 18, 2013. Clarify that solvers need to be supplied separately. Add live URL.
