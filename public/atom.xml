@@ -4,7 +4,7 @@
   <title><![CDATA[recomputation.org]]></title>
   <link href="http://www.recomputation.org/atom.xml" rel="self"/>
   <link href="http://www.recomputation.org/"/>
-  <updated>2013-09-19T11:23:04+02:00</updated>
+  <updated>2013-09-26T10:44:57+01:00</updated>
   <id>http://www.recomputation.org/</id>
   <author>
     <name><![CDATA[Ian Gent]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[On Virtual Machines Considered Harmful for Reproducibility]]></title>
     <link href="http://www.recomputation.org/blog/2013/07/16/on-virtual-machines-considered-harmful-for-reproducibility/"/>
-    <updated>2013-07-16T18:07:00+02:00</updated>
+    <updated>2013-07-16T18:07:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/07/16/on-virtual-machines-considered-harmful-for-reproducibility</id>
     <content type="html"><![CDATA[<p>This post is to summarise a couple of comments I made to a post from Titus Brown.
 But I&#8217;m crossposting here
@@ -80,7 +80,7 @@ Thanks for the really interesting post.</p>
   <entry>
     <title type="html"><![CDATA[Our first experiment: A chess puzzle]]></title>
     <link href="http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle/"/>
-    <updated>2013-07-01T13:17:00+02:00</updated>
+    <updated>2013-07-01T13:17:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/07/01/our-first-experiment-a-chess-puzzle</id>
     <content type="html"><![CDATA[<p>We are very pleased to announce the first experiment available from recomputation.org. <br/>
 After downloading the experiment box and booting, it takes only about 1 minute to run.
@@ -103,7 +103,7 @@ run, depending on your environment.</p>
   <entry>
     <title type="html"><![CDATA[Welcome to CP 2013 Authors]]></title>
     <link href="http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors/"/>
-    <updated>2013-06-10T20:45:00+02:00</updated>
+    <updated>2013-06-10T20:45:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/06/10/welcome-to-cp-2013-authors</id>
     <content type="html"><![CDATA[<p><a href="http://4c.ucc.ie/~larsko/">Lars Kotthoff</a> and I would like to give a warm welcome to
 <a href="http://recomputation.org">recomputation.org</a> to any successful authors with papers at the <a href="http://cp2013.a4cp.org/">CP 2013 conference</a>.
@@ -138,7 +138,7 @@ or not just
   <entry>
     <title type="html"><![CDATA[Not a lot about Excel and some links]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links/"/>
-    <updated>2013-04-21T14:48:00+02:00</updated>
+    <updated>2013-04-21T14:48:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/21/not-a-lot-about-excel-and-some-links</id>
     <content type="html"><![CDATA[<p>Reproducibility of computational experiments hit the headlines the other day.   Instead of citing one of the many news posts about it[(e.g. this one) http://www.bbc.co.uk/news/magazine-22223190], let&#8217;s go straight to the source:</p>
 
@@ -166,7 +166,7 @@ ICERM Workshop on <a href="http://icerm.brown.edu/tw12-5-rcem">Reproducibility i
   <entry>
     <title type="html"><![CDATA[Run Time Performance Is A Secondary Issue]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue/"/>
-    <updated>2013-04-18T11:23:00+02:00</updated>
+    <updated>2013-04-18T11:23:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/18/run-time-performance-is-a-secondary-issue</id>
     <content type="html"><![CDATA[<p>I have been surprised and pleased that the <a href="2013-04-12-the-recomputation-manifesto.html">Recomputation Manifesto</a> has
 attracted some attention after I put it on arXiv.  As well as comments on this blog, I have had various emails and
@@ -197,7 +197,7 @@ and distributions of run times out of our experiments.   But this is a secondary
   <entry>
     <title type="html"><![CDATA[The Recomputation Manifesto]]></title>
     <link href="http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto/"/>
-    <updated>2013-04-12T14:56:00+02:00</updated>
+    <updated>2013-04-12T14:56:00+01:00</updated>
     <id>http://www.recomputation.org/blog/2013/04/12/the-recomputation-manifesto</id>
     <content type="html"><![CDATA[<p>I have just released
 <a href="http://www.recomputation.org/papers/Manifesto1_9479.pdf">The Recomputation Manifesto</a>.  This is a 6 page paper intended for a general audience, not a technical paper.  It forms the founding manifesto of <a href="http://recomputation.org">recomputation.org</a>.</p>
@@ -236,7 +236,7 @@ This is Version 1, or to be more precise 1.9479.  But the four digit number just
   <entry>
     <title type="html"><![CDATA[Caveats on being free, and licences]]></title>
     <link href="http://www.recomputation.org/blog/2013/02/16/caveats-on-being-free/"/>
-    <updated>2013-02-16T11:36:00+01:00</updated>
+    <updated>2013-02-16T11:36:00+00:00</updated>
     <id>http://www.recomputation.org/blog/2013/02/16/caveats-on-being-free</id>
     <content type="html"><![CDATA[<p>I have just posted the <a href="http://www.recomputation.org/mission/index.html">Guiding principles</a> for <a href="http://recomputation.org">recomputation.org</a>.  One principle needs some elaboration:</p>
 
@@ -311,7 +311,7 @@ I published a paper in a platinum level open access journal <a href="http://jair
   <entry>
     <title type="html"><![CDATA[Welcome to recomputation.org]]></title>
     <link href="http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org/"/>
-    <updated>2013-02-15T08:47:00+01:00</updated>
+    <updated>2013-02-15T08:47:00+00:00</updated>
     <id>http://www.recomputation.org/blog/2013/02/15/welcome-to-recomputation-dot-org</id>
     <content type="html"><![CDATA[<p>On the day after Valentine&#8217;s Day, 2013, I&#8217;d <em>love</em> to welcome you to <a href="http://recomputation.org">recomputation.org</a>.
 My name is <a href="http://www.cs.st-andrews.ac.uk/~ipg">Ian Gent</a> and I&#8217;m Professor of Computer Science at the University of St Andrews.</p>
