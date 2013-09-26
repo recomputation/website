@@ -22,6 +22,7 @@ Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * Experiment authors: 
 Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * Made recomputable by: Lars Kotthoff
+* Approximate timescale after boot: 3 hours.
 * Experiment URL: [http://recomputation.org/cp2013/CMSS.html](http://recomputation.org/cp2013/CMSS.html)
 * Live URL: [https://live.recomputation.org:8443/job/binpacking-cp/](https://live.recomputation.org:8443/job/binpacking-cp/)
 
@@ -34,6 +35,8 @@ Note that this file is actually a tarfile containing VirtualBox files so may als
 ## Quick Instructions for running 
 
 *Note:* Part of the experiments use [IBM CPLEX](http://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/), which we are unable to include in the virtual machine because of licensing restrictions. To run the experiments that require CPLEX, put the CPLEX native libraries (the .so files) into the same directory as the virtual machine before starting it. They will be picked up automatically when the virtual machine is started.
+
+The version of CPLEX used for the experiments is 12.5.0.0.
 
 These instructions should work in a unix-like system with vagrant and VirtualBox installed.
     

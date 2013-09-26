@@ -21,6 +21,7 @@ Luca Di Gaspero, Andrea Rendl, Tommaso Urli
 * Experiment authors: 
 Luca Di Gaspero, Andrea Rendl, Tommaso Urli.
 * Made recomputable by: Lars Kotthoff
+* Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/GRU.html](http://recomputation.org/cp2013/GRU.html)
 * Live URL: [https://live.recomputation.org:8443/job/bbcs-cp/](https://live.recomputation.org:8443/job/bbcs-cp/)
 

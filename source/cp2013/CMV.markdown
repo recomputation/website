@@ -20,6 +20,7 @@ Supratik Chakraborty, Kuldeep S. Meel, Moshe Y. Vardi
 * Experiment authors: 
 Supratik Chakraborty, Kuldeep S. Meel, Moshe Y. Vardi
 * Made recomputable by: Lars Kotthoff
+* Approximate timescale after boot: weeks.
 * Experiment URL: [http://recomputation.org/cp2013/CMV.html](http://recomputation.org/cp2013/CMV.html)
 * Live URL: [https://live.recomputation.org:8443/job/modelcounter-cp/](https://live.recomputation.org:8443/job/modelcounter-cp/)
 

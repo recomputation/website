@@ -22,6 +22,7 @@ Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Experiment authors: 
 Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
 * Made recomputable by: Lars Kotthoff
+* Approximate timescale after boot: years if all solvers supplied.
 * Experiment URL: [http://recomputation.org/cp2013/ABGL.html](http://recomputation.org/cp2013/ABGL.html)
 * Live URL: [https://live.recomputation.org:8443/job/maxsat-cp/](https://live.recomputation.org:8443/job/maxsat-cp/)
 
