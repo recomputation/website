@@ -15,9 +15,11 @@ Slides from the tutorial at CP by Ian Gent and Lars Kotthoff are [available](/pa
 
 
 In total, we received 11 expressions of interest. By the time of the conference,
-we had made the 6 experiments listed below recomputable.
+we had made 6 experiments recomputable. Currently, there are the 7 experiments
+listed below.
 
 * [Improving WPM2 for (Weighted) Partial MaxSAT](ABGL.html) by Carlos Ansótegui, Maria Luisa Bonet, Joel Gabàs, Jordi Levy
+* [Automated Symmetry Breaking and Model Selection in Conjure](AFGHJKMN.html) by Ozgur Akgun, Alan M. Frisch, Ian P. Gent, Bilal Hussain, Christopher A. Jefferson, Lars Kotthoff, Ian Miguel, Peter Nightingale
 * [Bin Packing with Linear Usage Costs - An Application to Energy Management in Data Centres](CMSS.html) by Hadrien Cambazard, Deepak Mehta, Barry O'Sullivan, Helmut Simonis
 * [A Scalable Approximate Model Counter](CMV.html) by Supratik Chakraborty, Kuldeep S. Meel, Moshe Y. Vardi
 * [A Simple and Effective Decomposition for the Multidimensional Binpacking Constraint](GL.html) by Stefano Gualandi and Michele Lombardi
