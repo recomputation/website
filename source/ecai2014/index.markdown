@@ -19,20 +19,33 @@ We recommend that you first read through the [general instructions](/ecai2014/in
 ###[Schedule Generation Schemes for Job Shop Problems with Fuzziness](http://ebooks.iospress.nl/volumearticle/37021)
 #####Juan Jos&eacute; Palacios, Camino R. Vela, In&eacute;s Gonz&aacute;lez-Rodr&iacute;guez and  Jorge Puente
 
-Instructions for running experiment:
+Instructions for running the experiment:
 
     $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/jorge/ECAI2014_PalaciosEtal.box
     $ vagrant up
 
-[Download Experiment](/ecai2014/experiments/jorge/ECAI2014_PalaciosEtal.box), [ReadMe](/ecai2014/experiments/jorge/readme_ECAI2014_PalaciosEtal.txt), [Extended ReadMe](/ecai2014/experiments/jorge/extended_readme.txt)
+Size: 496 MB | [Download Experiment](/ecai2014/experiments/jorge/ECAI2014_PalaciosEtal.box) | [ReadMe](/ecai2014/experiments/jorge/readme_ECAI2014_PalaciosEtal.txt) | [Extended ReadMe](/ecai2014/experiments/jorge/extended_readme.txt)
 
 ----
 ###[Bias Reformulation for One-shot Function Induction](http://ebooks.iospress.nl/volumearticle/36994)
 #####Dianhuan Lin, Eyal Dechter, Kevin Ellis, Joshua B. Tenenbaum and Stephen H. Muggleton
 
-Instructions for running experiment:
+Instructions for running the experiment:
 
     $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/dianhuan/metagolDF.box
     $ vagrant up
 
-[Download Experiment](/ecai2014/experiments/dianhuan/metagolDF.box), [ReadMe](/ecai2014/experiments/dianhuan/README.txt)
+Size: 643 MB | [Download Experiment](/ecai2014/experiments/dianhuan/metagolDF.box) | [ReadMe](/ecai2014/experiments/dianhuan/README.txt)
+
+----
+###[Conditioned Belief Propagation Revisited](http://ebooks.iospress.nl/volumearticle/37095)
+#####Thomas Geier, Felix Richter and Susanne Biundo
+
+Instructions for running the experiment:
+
+    $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/geier/CBP-Revisited.box
+    $ vagrant up
+
+Size: 2,938 MB | [Download Experiment](/ecai2014/experiments/geier/CBP-Revisited.box)
+
+
