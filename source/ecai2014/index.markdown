@@ -48,4 +48,15 @@ Instructions for running the experiment:
 
 Size: 2,938 MB | [Download Experiment](/ecai2014/experiments/geier/CBP-Revisited.box)
 
+----
+###[Fast Instantiation of GGP Game Descriptions Using Prolog with Tabling](http://ebooks.iospress.nl/volumearticle/37150)
+#####Jean-No&euml;l Vittaut, Jean M&eacute;hat
+
+Instructions for running the experiment:
+
+    $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/jean/Grounding1.box
+    $ vagrant up
+
+Size: 516 MB | [Download Experiment](/ecai2014/experiments/jean/Grounding1.box) | [Short Paper](/ecai2014/experiments/jean/InstantiationVittaut2014-short.pdf)
+
 
