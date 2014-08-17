@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-## Recomputation @ ECAI 2014
+##Recomputation @ ECAI 2014
 
 We have asked authors whose papers have been accepted to [The 21st European Conference on Ariticial Intelligence](http://www.ecai2014.org/) whether they would be interested in making their experiments recomputable. Those who have given us their experiments are listed below along with the packaged virtual machines containing their experiments. We will continue to expand this list as we get more experiments.
 
@@ -50,13 +50,13 @@ Size: 2,938 MB | [Download Experiment](/ecai2014/experiments/geier/CBP-Revisited
 
 ----
 ###[Fast Instantiation of GGP Game Descriptions Using Prolog with Tabling](http://ebooks.iospress.nl/volumearticle/37150)
-#####Jean-No&euml;l Vittaut, Jean M&eacute;hat
+#####Jean-No&euml;l Vittaut and Jean M&eacute;hat
 
 Instructions for running the experiment:
 
     $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/jean/Grounding1.box
     $ vagrant up
 
-Size: 516 MB | [Download Experiment](/ecai2014/experiments/jean/Grounding1.box) | [Short Paper](/ecai2014/experiments/jean/InstantiationVittaut2014-short.pdf)
+Size: 516 MB | [Download Experiment](/ecai2014/experiments/jean/Grounding1.box) | [Short Paper](/ecai2014/experiments/jean/InstantiationVittaut2014-short.pdf) | [ReadMe](/ecai2014/experiments/jean/README.txt)
 
 
