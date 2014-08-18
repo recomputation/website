@@ -59,4 +59,29 @@ Instructions for running the experiment:
 
 Size: 516 MB | [Download Experiment](/ecai2014/experiments/jean/Grounding1.box) | [Short Paper](/ecai2014/experiments/jean/InstantiationVittaut2014-short.pdf) | [ReadMe](/ecai2014/experiments/jean/README.txt)
 
+----
+###[Automating G&ouml;del's Ontological Proof of God's Existence with Higher-order Automated Theorem Provers](http://ebooks.iospress.nl/volumearticle/36922)
+#####Christoph Benzm&uuml;ller and Bruno Woltzenlogel Paleo
+
+Instructions for running the experiment (<font color="red">this VM is still being setup</font>):
+
+    $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/chris/GoedelGod.box
+    $ vagrant up
+
+Size: 556 MB | [Download Experiment](/ecai2014/experiments/chris/GoedelGod.box)
+
+
+----
+###[DITO: A CSP-based Diagnostic Engine](http://ebooks.iospress.nl/volumearticle/37023)
+#####Yannick Pencol&eacute;
+
+Instructions for running the experiment:
+
+    $ vagrant init SomeName http://recomputation.org/ecai2014/experiments/pencole/DitoFirstExperimentsOnC6288.box
+    $ vagrant up
+
+Size: 661 MB | [Download Experiment](/ecai2014/experiments/pencole/DitoFirstExperimentsOnC6288.box) | [ReadMe](/ecai2014/experiments/pencole/README.txt)
+
+
+
 
