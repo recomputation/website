@@ -9,6 +9,8 @@ footer: true
 
 ##Recomputation @ ECAI 2014
 
+Slides from Ian Gent and Lars Kotthoff's tutorial at ECAI [are now online here](ECAI2014RecomputationTutorial.pdf).
+
 We have asked authors whose papers have been accepted to [The 21st European Conference on Aritificial Intelligence](http://www.ecai2014.org/) whether they would be interested in making their experiments recomputable. Those who have given us their experiments are listed below along with the packaged virtual machines containing their experiments. We will continue to expand this list as we get more experiments.
 
 We recommend that you first read through the [general instructions](/ecai2014/instructions.html) for running these experiments.
