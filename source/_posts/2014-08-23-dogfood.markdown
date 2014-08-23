@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Dogfood, Dogfood, Dogfood"
+date: 2014-08-23 10:43
+comments: true
+categories: 
+---
+Since I started (recomputation.org) a bit over a year ago, I've written a number of papers with experiments in them.  
+
+Only [one of them](http://recomputation.org/cp2013/AFGHJKMN.html) is available on recomputation.org.
+
+Not. So. Good.
+
+On the off chance you don't know, "eating your own dogfood" is a phrase used by people in software and services. It means that developers should use the software or service they are developing.  There's nothing like using a system to find out what's wrong with it, and indeed what's right with it. 
+
+So I am embarrassed about this.  
+
+In some cases I have even built virtual machines which embody some or most of the experiments in a paper.  But have not taken the last few steps to publish them. 
+By the way, most of these papers have involved co-authors, but I don't want to point the finger at them: it's mainly my fault. Even if I would have needed them to do stuff for me to get the experiment ready, I didn't get them to. And in a couple of cases they did do what I asked and I didn't take the last steps.  And if I can't take the blame for this [solely authored paper](https://www.jair.org/papers/paper4016.html), who can?
+
+I want to be clear what I am embarrassed about. 
+
+I'm just slightly embarrassed that I have not been practising what I preach. While it is true that some of my papers have been less replicable than they could be, this is a common problem in computer science, and if I can be criticised 
+
+But I am very embarrassed that I haven't been dogfooding.  I need to figure out what are the obstacles making it harder than it needs to be to make experiments recomputable. And then figure out how to lessen those obstacles.  
+
+That's why you dogfood and I'm going to try harder in future.
+
+
+
+
