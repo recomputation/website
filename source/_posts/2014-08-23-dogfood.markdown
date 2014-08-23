@@ -5,7 +5,7 @@ date: 2014-08-23 10:43
 comments: true
 categories: 
 ---
-Since I started (recomputation.org) a bit over a year ago, I've written a number of papers with experiments in them.  
+Since I started [recomputation.org](http://recomputation.org) a bit over a year ago, I've written a number of papers with experiments in them.  
 
 Only [one of them](http://recomputation.org/cp2013/AFGHJKMN.html) is available on recomputation.org.
 
@@ -20,7 +20,7 @@ By the way, most of these papers have involved co-authors, but I don't want to p
 
 I want to be clear what I am embarrassed about. 
 
-I'm just slightly embarrassed that I have not been practising what I preach. While it is true that some of my papers have been less replicable than they could be, this is a common problem in computer science, and if I can be criticised 
+I'm just slightly embarrassed that I have not been practising what I preach. While it is true that some of my papers have been less replicable than they could be, this is a common problem in computer science. And I am trying to help people do something about it.
 
 But I am very embarrassed that I haven't been dogfooding.  I need to figure out what are the obstacles making it harder than it needs to be to make experiments recomputable. And then figure out how to lessen those obstacles.  
 
