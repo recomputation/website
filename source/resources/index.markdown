@@ -25,7 +25,7 @@ Ph.D. dissertation, Department of Computer Science, Stanford University, 2012.
 
 * [Verifiable Computational Research](http://vcr.stanford.edu/).  Includes [A Universal Identifier for Computational Results](https://www.sciencedirect.com/science/article/pii/S1877050911001256).
 
-* [Reprozip](https://www.usenix.org/conference/tapp13/reprozip-using-provenance-support-computational-reproducibilitythe). A tool similar to CDE but focussed specifically on allowing reproduction of comptutational experiments.
+* [ReproZip](https://vida-nyu.github.io/reprozip/). A tool similar to CDE but focused specifically on allowing reproduction of computational experiments.
     
 
 * [HAL: The High-performance Algorithm Laboratory](http://hal.cs.ubc.ca/), University of British Columbia.
